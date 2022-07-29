@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    
+    <!-- Hoja de estilos-->
+    <link rel="stylesheet" href="../css/style.css">
+
+</head>
+
+<body>
+    <!-- Inicio encabezado logo + nav-->
+    <header class="cabecera">
+        <img class="logo" id="top" src="../img/logo.png" alt="logo">
+        <nav class="menu">
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="./servicios.html">Servicios</a></li>
+                <li><a href="./todotecno.html">Todo Tecno</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+                <li><a href="./nosotros.html">Sobre Nosotros</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Fin encabezado logo + nav-->
+    <!-- Inicio contenido principal-->
+    <main class="principal">
+        <!-- Inicio formulario-->
+        <section class="contacto">
+            <!-- Animación h1-->
+            <h1 >Envía tu Consulta</h1>
+            <div class="contenedor">
+                <form action="" method="post" autocomplete="off">
+                    <label for="name" class="text-label">Nombre</label>
+                    <input type="text" class="text-datos" placeholder="Ingresa tu nombre" required>
+                    <label for="last_name" class="text-label">Apellido</label>
+                    <input type="text" class="text-datos" placeholder="Ingresa tu apellido" required>
+                    <label for="telefono" class="text-label">Número de teléfono</label>
+                    <input type="tel" name="telefono" class="text-datos" placeholder="Ingresa tu n° de teléfono"
+                        required>
+                    <label for="email" class="text-label">Correo</label>
+                    <input type="email" class="text-datos" placeholder="Ingresa tu correo" required>
+                    <label for="messagge" class="text-label">Consulta</label>
+                    <textarea class="textarea" placeholder="Ingresa tu consulta" required></textarea>
+                    <label for="ofertas" class="text-label">¿Desea recibir novedades sobre nuestras ofertas?</label>
+                    <input type="checkbox" name="ofertas" class="check" value="si">
+                    <input type="submit" class="button-form" value="Enviar">
+                    <input type="reset" class="button-form" value="Limpiar">
+                </form>
+            </div>
+        </section>
+        <!-- Fin formulario-->
+        <!-- WhatsApp flotante -->
+        <div class="boton-wsp">
+            <a href="https://api.whatsapp.com/send?phone=542215657734&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20System"
+                target="_blank"><img src="../img/whatsapp.png" alt="logo whatsapp" /></a>
+        </div>
+    </main>
+    <!-- Fin contenido principal-->
+    <!-- Inicio Footer -->
+    <footer class="pie">
+        <a href="#top"><img class="top" src="../img/top.png" alt="ir arriba"></a>
+        <p>169 E/ 26 y 27 N°2450<br>
+            Berisso - Buenos Aires - Argentina<br>
+            Todos los derechos reservados - System</p>
+        <div> <a href="https://www.instagram.com/informatica_system/" target="_blank"><img src="../img/instagram.png"
+                    alt="logo instagram" /></a>
+            <a href="mailto:system.informatica365@gmail.com" target="_blank"><img src="../img/mail.png"
+                    alt="logo mail" /></a>
+            <a href="https://t.me/System_Bsso" target="_blank"><img src="../img/telegram.png" alt="logo telegram" /></a>
+        </div>
+    </footer>
+    <!-- Fin Footer -->
+</body>
+
+</html>
