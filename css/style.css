@@ -150,7 +150,8 @@ header {
 }
 
 .grid-genios h2 {
-    margin-bottom: 40px;
+    padding-top   : 60px;
+    padding-bottom: 60px;
 }
 
 .grid-genios .container {
@@ -244,9 +245,10 @@ header {
 }
 
 .ofertas h2 {
-    font-size    : 40px;
-    text-align   : center;
-    margin-bottom: 15px;
+    font-size     : 40px;
+    text-align    : center;
+    padding-top   : 60px;
+    padding-bottom: 60px;
 }
 
 .ofertas>div {
@@ -259,7 +261,7 @@ header {
     width           : 300px;
     height          : 400px;
     border          : 2px solid #0D0D0D;
-    margin-bottom   : 20px;
+    margin-bottom   : 100px;
     text-align      : center;
     border-radius   : 15px;
     background-color: #F28F79;

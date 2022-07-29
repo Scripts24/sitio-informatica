@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyecto System</title>
+    <!-- Animate on scroll-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Hoja de estilos-->
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
@@ -128,33 +131,33 @@
             </div>
         </section>
         <!-- Fin Galería Grid -->
-        <!-- Inicio Ofertas -->
+        <!-- Inicio Ofertas con animación-->
         <section class="ofertas">
             <h2>Ofertas increíbles</h2>
             <div>
-                <div>
+                <div data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                     <img src="./img/windowsoffice.png" alt="imagen costo instalación windows">
                     <h3>Windows + office</h3>
-                    <a href="">Reservar</a>
+                    <a href="https://api.whatsapp.com/send?phone=542215657734" target="_blank">Reservar</a>
                 </div>
-                <div>
+                <div data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                     <img src="./img/linux.png" alt="imagen costo instalación linux">
                     <h3>Distribución Linux</h3>
-                    <a href="">Reservar</a>
+                    <a href="https://api.whatsapp.com/send?phone=542215657734" target="_blank">Reservar</a>
                 </div>
-                <div>
+                <div data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                     <img src="./img/arranquedual.png" alt="imagen costo dual boot">
                     <h3>Arranque dual</h3>
-                    <a href="">Reservar</a>
+                    <a href="https://api.whatsapp.com/send?phone=542215657734" target="_blank">Reservar</a>
                 </div>
-                <div>
+                <div data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                     <img src="./img/adobe.png" alt="programas Adobe">
                     <h3>Pack por 3 = $500</h3>
-                    <a href="">Reservar</a>
+                    <a href="https://api.whatsapp.com/send?phone=542215657734" target="_blank">Reservar</a>
                 </div>
             </div>
         </section>
-        <!-- Fin Ofertas -->
+        <!-- Fin Ofertas con animación-->
         <!-- WhatsApp flotante -->
         <div class="boton-wsp">
             <a href="https://api.whatsapp.com/send?phone=542215657734&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20System"
@@ -176,6 +179,13 @@
         </div>
     </footer>
     <!-- Fin footer -->
+    <!-- Animate on scroll Js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+        });
+    </script>
 </body>
 
 </html>
