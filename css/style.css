@@ -66,7 +66,7 @@ body p {
     margin-bottom  : 40px;
 }
 
-/*.....HEADER.....*/
+/*.....HEADER.....
 header {
     background-color: #404040;
     padding         : 10px;
@@ -74,6 +74,10 @@ header {
     display         : flex;
     justify-content : space-between;
     align-items     : center;
+}*/
+header nav {
+    background-color: #404040;
+    z-index: 10;
 }
 
 .logo {
@@ -81,26 +85,11 @@ header {
     height: 80px;
 }
 
-.menu ul {
-    list-style: none;
-    display   : flex;
-}
-
-.menu ul li {
-    margin: 20px 20px 0 20px;
-}
-
-.menu ul li a {
-    text-decoration: none;
-    color          : #F28F79;
-    font-size      : 20px;
-    font-family    : 'Nunito', sans-serif;
-    font-weight    : 600;
-}
-
-.menu a:hover {
-    background   : #D9D9D9;
-    border-radius: 5px;
+nav ul li a {
+    color      : #F28F79 !important;
+    font-size  : 20px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
 }
 
 /*.....MAIN.....*/
@@ -325,17 +314,14 @@ h3 {
     padding-bottom: 30px
 }
 
-.antivirus table {
+.antivirus table{
     margin    : 20px 0 40px 0;
     text-align: center;
-    border    : 1px solid #df8468;
     width     : 70%;
 }
 
 .antivirus table thead {
     height          : 60px;
-    color           : #f3ebea;
-    background-color: #b65f5f;
 }
 
 .antivirus table tbody td {
@@ -534,7 +520,7 @@ h2 {
     padding   : 20px 0;
 }
 
-.animate__animated {
+.contacto .animate__animated {
     color             : #221313d3;
     animation         : zoomIn;
     animation-duration: 3s;
@@ -677,7 +663,12 @@ form:first-child {
 
 /*---MEDIA QUERIES---*/
 /*---Responsive max-width---*/
+@media screen and (max-width:991px){
+    .nav-link{
+        text-align: center;
+    }
 
+}
 @media screen and (max-width:995px) {
     .grid-conteiner-windows {
         grid-template-columns: repeat(2, 2fr);
@@ -753,13 +744,6 @@ form:first-child {
     }
 }
 
-@media screen and (max-width:808px) {
-    header {
-        flex-direction: column;
-        padding       : 0;
-    }
-}
-
 @media screen and (max-width:776px) {
     .slider-card {
         height: 220px;
@@ -776,11 +760,6 @@ form:first-child {
 }
 
 @media screen and (max-width:687px) {
-    header nav ul {
-        flex-direction: column;
-        text-align    : center;
-    }
-
     .grid-item-windows h3 {
         font-size     : medium;
         letter-spacing: 0;
@@ -797,9 +776,11 @@ form:first-child {
     }
 
     .nosotros h1 {
-        font-size: 45px;
+        font-size: 40px;
     }
-
+    .nosotros p {
+        font-size: 16px;
+    }
     .info-util h2 {
         font-size: 35px;
     }
@@ -836,11 +817,7 @@ form:first-child {
     }
 
     .nosotros h1 {
-        font-size: 40px;
-    }
-
-    .nosotros p {
-        font-size: 20px;
+        font-size: 35px;
     }
 
     .slider-card {
@@ -867,7 +844,7 @@ form:first-child {
 
 @media screen and (max-width:428px) {
     .nosotros p {
-        font-size: 16px;
+        font-size: 14px;
     }
 }
 
