@@ -66,18 +66,9 @@ body p {
     margin-bottom  : 40px;
 }
 
-/*.....HEADER.....
-header {
-    background-color: #404040;
-    padding         : 10px;
-    z-index         : 1;
-    display         : flex;
-    justify-content : space-between;
-    align-items     : center;
-}*/
+/*.....HEADER.....*/
 header nav {
     background-color: #404040;
-    z-index         : 10;
 }
 
 .logo {
@@ -100,26 +91,8 @@ nav ul li a {
 
 /*---Index---*/
 
-.hero {
-    width                : 100%;
-    height               : 80vh;
-    background-image     : url("../img/banner.jpg");
-    background-position  : center;
-    background-size      : cover;
-    background-repeat    : no-repeat;
-    background-attachment: fixed;
-    display              : flex;
-    justify-content      : center;
-    align-items          : center;
-}
-
-.hero div {
-    width: 90%;
-}
-
-.hero h1 {
-    font-size : 60px;
-    font-style: oblique;
+.slide img {
+    height: 70vh;
 }
 
 /*---Grid Index---*/
@@ -139,8 +112,7 @@ nav ul li a {
 }
 
 .grid-genios h2 {
-    padding-top   : 60px;
-    padding-bottom: 60px;
+    padding-top: 35px;
 }
 
 .grid-genios .container {
@@ -236,8 +208,8 @@ nav ul li a {
 .ofertas h2 {
     font-size     : 40px;
     text-align    : center;
-    padding-top   : 60px;
-    padding-bottom: 60px;
+    padding-top   : 40px;
+    
 }
 
 .ofertas>div {
@@ -605,11 +577,29 @@ form:first-child {
 /*---Page Nosotros---*/
 
 .nosotros .hero {
-    background-image: url("../img/banner1.png");
-    margin-bottom   : 40px;
+    background-image     : url("../img/banner1.png");
+    margin-bottom        : 40px;
+    width                : 100%;
+    height               : 80vh;
+    background-position  : center;
+    background-size      : cover;
+    background-repeat    : no-repeat;
+    background-attachment: fixed;
+    display              : flex;
+    justify-content      : center;
+    align-items          : center;
+}
+
+.nosotros div {
+    width: 90%;
+}
+
+.nosotros h1 {
+    color: #D9D9D9;
 }
 
 .nosotros p {
+    text-align : justify;
     font-weight: bold;
     color      : #D9D9D9;
 }
@@ -663,34 +653,7 @@ form:first-child {
 
 /*---MEDIA QUERIES---*/
 /*---Responsive max-width---*/
-@media screen and (max-width:991px) {
-    .nav-link {
-        text-align: center;
-    }
-
-}
-
-@media screen and (max-width:995px) {
-    .grid-conteiner-windows {
-        grid-template-columns: repeat(2, 2fr);
-        grid-auto-rows       : minmax(120px, auto);
-    }
-
-    .grid-item-windows {
-        grid-column: span 1;
-        grid-row   : span 1;
-    }
-
-    .grid-item-11 {
-        grid-column: span 2;
-    }
-
-    .youtube-wrapper {
-        width: 60%;
-    }
-}
-
-@media screen and (max-width:936px) {
+@media screen and (max-width:1075px){
     .grid-genios .container {
         grid-template-columns: 1fr;
     }
@@ -718,7 +681,36 @@ form:first-child {
     .box-musk {
         grid-row: 5;
     }
+}
 
+@media screen and (max-width:991px) {
+    .nav-link {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:995px) {
+    .grid-conteiner-windows {
+        grid-template-columns: repeat(2, 2fr);
+        grid-auto-rows       : minmax(120px, auto);
+    }
+
+    .grid-item-windows {
+        grid-column: span 1;
+        grid-row   : span 1;
+    }
+
+    .grid-item-11 {
+        grid-column: span 2;
+    }
+
+    .youtube-wrapper {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width:936px) {
+    
     .antivirus table {
         width: 50%;
     }
@@ -768,10 +760,6 @@ form:first-child {
 }
 
 @media screen and (max-width:620px) {
-    .hero-titulo h1 {
-        font-size: 50px;
-    }
-
     .contacto h1 {
         font-size: 35px;
     }
@@ -812,6 +800,10 @@ form:first-child {
     .pie {
         flex-direction: column;
     }
+
+    .slide img {
+        height: 55vh;
+    }
 }
 
 @media screen and (max-width:488px) {
@@ -843,17 +835,25 @@ form:first-child {
     .youtube-wrapper {
         width: 80%;
     }
+
+    .slide img {
+        height: 55vh;
+    }
 }
 
 @media screen and (max-width:428px) {
+    .slide img {
+        height: 50vh;
+    }
+
     .nosotros p {
         font-size: 14px;
     }
 }
 
 @media screen and (max-width:380px) {
-    .hero-titulo h1 {
-        font-size: 45px;
+    .slide img {
+        height: 40vh;
     }
 
     .slider-card a {
