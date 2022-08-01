@@ -77,7 +77,7 @@ header {
 }*/
 header nav {
     background-color: #404040;
-    z-index: 10;
+    z-index         : 10;
 }
 
 .logo {
@@ -314,14 +314,14 @@ h3 {
     padding-bottom: 30px
 }
 
-.antivirus table{
+.antivirus table {
     margin    : 20px 0 40px 0;
     text-align: center;
     width     : 70%;
 }
 
 .antivirus table thead {
-    height          : 60px;
+    height: 60px;
 }
 
 .antivirus table tbody td {
@@ -663,12 +663,13 @@ form:first-child {
 
 /*---MEDIA QUERIES---*/
 /*---Responsive max-width---*/
-@media screen and (max-width:991px){
-    .nav-link{
+@media screen and (max-width:991px) {
+    .nav-link {
         text-align: center;
     }
 
 }
+
 @media screen and (max-width:995px) {
     .grid-conteiner-windows {
         grid-template-columns: repeat(2, 2fr);
@@ -778,9 +779,11 @@ form:first-child {
     .nosotros h1 {
         font-size: 40px;
     }
+
     .nosotros p {
         font-size: 16px;
     }
+
     .info-util h2 {
         font-size: 35px;
     }
