@@ -206,10 +206,10 @@ nav ul li a {
 }
 
 .ofertas h2 {
-    font-size     : 40px;
-    text-align    : center;
-    padding-top   : 40px;
-    
+    font-size  : 40px;
+    text-align : center;
+    padding-top: 40px;
+
 }
 
 .ofertas>div {
@@ -653,7 +653,7 @@ form:first-child {
 
 /*---MEDIA QUERIES---*/
 /*---Responsive max-width---*/
-@media screen and (max-width:1075px){
+@media screen and (max-width:1075px) {
     .grid-genios .container {
         grid-template-columns: 1fr;
     }
@@ -710,7 +710,6 @@ form:first-child {
 }
 
 @media screen and (max-width:936px) {
-    
     .antivirus table {
         width: 50%;
     }
