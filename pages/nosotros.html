@@ -9,6 +9,8 @@
     <!-- Link Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Animate CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <!-- Hoja de estilos-->
     <link rel="stylesheet" href="../css/style.css">
 </head>
@@ -49,29 +51,82 @@
     <!-- Fin encabezado y navbar con logo Bootstrap-->
     <!-- Inicio contenido principal-->
     <main class="principal">
-        <!-- Inicio parallax con info-->
+        <!-- Inicio parallax -->
         <section class="nosotros">
             <div class="hero">
-                <div>
-                    <h1>Sobre Nosotros</h1>
-                    <p>System surgió como un emprendimiento destinado a dar soporte informático en la ciudad de Berisso,
-                        donde
-                        no existen muchas opciones en el rubro, con la intención de brindar un servicio de calidad, pero
-                        con
-                        costos accesibles para todos.<br>
-                        Nos dedicamos a dar soporte tanto para pc como notebooks, como en todo lo relativo a la
-                        conectividad. <br>
-                        Todas las marcas: Lenovo, Dell, Asus, Acer, HP, Compaq, Samsung, MSI, Bangho, Sony Vaio y más.
-                        <br>
-                        Por cualquier consulta podés comunicarte a través de los medios que figuran al pie de la página
-                        o
-                        por el
-                        formulario de contacto.
-                    </p>
+                <!-- Animación h1 y h2-->
+                <div class="titulo">
+                    <h1 class="animate__animated animate__slideInLeft animate__slower">SYSTEM</h1>
+                    <h2 class="animate__animated animate__slideInRight animate__slower">Informática & Seguridad</h2>
+                </div>
+            </div>
+            <!-- Fin parallax -->
+            <!-- Inicio accordion Bootstrap -->
+            <div class="accordion ms-auto" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Sobre Nosotros
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p> System surgió como un emprendimiento destinado a dar soporte informático en la ciudad de
+                                Berisso, donde no existen muchas opciones en el rubro.<br>
+                                Nos dedicamos a dar soporte tanto para pc como notebooks, como en todo lo relativo a la
+                                conectividad, habiendo incorporado el servicio de instalación de cámaras de
+                                seguridad.<br>
+                                Trabajamos todas las marcas: Lenovo, Dell, Asus, Acer, HP, Compaq, Samsung, MSI, Bangho,
+                                Sony Vaio y más. <br>
+                                Por cualquier consulta podés comunicarte a través de los medios que figuran al pie de la
+                                página o por el formulario de contacto.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Nuestros Valores
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <ul>
+                                <li>*Transparencia</li>
+                                <li>*Honestidad</li>
+                                <li>*Pasión</li>
+                                <li>*Empatía</li>
+                                <li>*Adaptabilidad</li>
+                                <li>*Constancia</li>
+                                <li>*Responsabilidad</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Nuestro Objetivo
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p>Proveer a los clientes de las mejores soluciones tecnológicas, brindando un servicio de
+                                calidad con costos accesibles para todos.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
-        <!-- Fin parallax con info-->
+        <!-- Fin accordion Bootstrap -->
         <!-- Inicio ubicación-->
         <section class="mapa">
             <h2>Ubicación</h2>
