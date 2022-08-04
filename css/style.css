@@ -594,9 +594,11 @@ form:first-child {
     width: 90%;
 }
 
-.hero h1,
-h2 {
+.hero h1{
     color: #D9D9D9;
+}
+.hero h2 {
+    color: whitesmoke;
 }
 
 .accordion {
