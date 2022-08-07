@@ -844,11 +844,11 @@ form:first-child {
 
 @media screen and (max-width:936px) {
     .antivirus table thead {
-        font-size: 16px;
+        font-size: 1rem;
     }
 
     .antivirus table thead td {
-        font-size: 14px;
+        font-size: 0.9rem;
     }
 }
 
@@ -874,11 +874,11 @@ form:first-child {
     }
 
     .slider-card h3 {
-        font-size: 25px;
+        font-size: 1.55rem;
     }
 
     .slider-card a {
-        font-size: 18px;
+        font-size: 1.12rem;
     }
 
     .youtube-wrapper {
@@ -907,11 +907,11 @@ form:first-child {
     }
 
     .slider-card h3 {
-        font-size: 20px;
+        font-size: 1.25rem;
     }
 
     .slider-card a {
-        font-size: 14px;
+        font-size: 0.9rem;
     }
 
     .pie {
@@ -929,11 +929,11 @@ form:first-child {
     }
 
     .slider-card h3 {
-        font-size: 18px;
+        font-size: 1.12rem;
     }
 
     .slider-card a {
-        font-size: 12px;
+        font-size: 0.75rem;
     }
 
     .slider-card div {
@@ -941,13 +941,13 @@ form:first-child {
     }
 
     .grid-item-windows h4 {
-        font-size: 18px;
+        font-size: 1.12rem;
     }
 }
 
 @media screen and (max-width:488px) {
     p {
-        font-size: 16px;
+        font-size: 1rem;
     }
 
     .slider-card {
@@ -955,19 +955,19 @@ form:first-child {
     }
 
     .slider-card h3 {
-        font-size: 18px;
+        font-size: 1rem;
     }
 
     .slider-card a {
-        font-size: 12px;
+        font-size: 0.75rem;
     }
 
     .button-form {
-        font-size: 16px;
+        font-size: 1rem;
     }
 
-    .grid-item-windows h3 {
-        font-size: 16px;
+    .grid-item-windows h4 {
+        font-size: 0.9rem;
     }
 
     .youtube-wrapper {
@@ -977,15 +977,23 @@ form:first-child {
     .slide img {
         height: 55vh;
     }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero h2 {
+        font-size: 1.7rem;
+    }
 }
 
 @media screen and (max-width:428px) {
     .antivirus table thead td {
-        font-size: 14px;
+        font-size: 0.8rem;
     }
 
     .antivirus table tbody td {
-        font-size: 12px;
+        font-size: 0.6rem;
     }
 
     .slide img {
@@ -998,7 +1006,7 @@ form:first-child {
     }
 
     .accordion-body {
-        font-size: 16px;
+        font-size: 1rem;
     }
 }
 
@@ -1008,21 +1016,25 @@ form:first-child {
     }
 
     .slider-card h3 {
-        font-size: 18px;
+        font-size: 0.9rem;
     }
 
     .slider-card a {
-        font-size: 10px;
+        font-size: 0.5rem;
     }
 
     .grid-item-windows h4 {
-        font-size: 14px;
+        font-size: 0.8rem;
+    }
+
+    .hero h2 {
+        font-size: 1.5rem;
     }
 }
 
 @media screen and (max-width:380px) {
     p {
-        font-size: 12px;
+        font-size: 0.75rem;
     }
 
     .slide img {
@@ -1037,37 +1049,39 @@ form:first-child {
         width: 280px;
     }
 
-    .text-datos {
-        font-size: 12px;
-    }
-
-    .textarea {
-        font-size: 12px;
-    }
-
-    .accordion-body {
-        font-size: 12px;
-    }
-}
-
-@media screen and (max-width:360px) {
     .slider-card {
         height: 90px;
     }
 
     .slider-card h3 {
-        font-size: 14px;
+        font-size: 0.7rem;
     }
 
     .slider-card a {
-        font-size: 9px;
+        font-size: 0.5rem;
     }
 
     .slider-card div {
         padding-bottom: 5px;
     }
 
+    .text-datos {
+        font-size: 0.75rem;
+    }
+
+    .textarea {
+        font-size: 0.75rem;
+    }
+
     .grid-item-windows h4 {
-        font-size: 12px;
+        font-size: 0.7rem;
+    }
+
+    .accordion-body {
+        font-size: 0.75rem;
+    }
+
+    .hero h2 {
+        font-size: 1.3rem;
     }
 }
