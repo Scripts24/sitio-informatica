@@ -142,6 +142,7 @@ nav ul li a {
 }
 
 .grid-genios h2 {
+    margin-top   : 30px;
     margin-bottom: 30px;
 }
 
@@ -411,7 +412,7 @@ nav ul li a {
 
 .slider-card a {
     text-decoration : none;
-    background-color: #0D0D0D;
+    background-color: #0808088a;
     padding         : 5px;
     color           : #D9D9D9;
     border-radius   : 5px;
@@ -781,7 +782,7 @@ form:first-child {
     width           : 65px;
     height          : 65px;
     bottom          : 90px;
-    right           : 20px;
+    right           : 15px;
     background-color: #D9D9D9;
     border-radius   : 60px;
 }
@@ -867,10 +868,8 @@ form:first-child {
         height: 200px;
     }
 
-    .boton-wsp img {
-        width : 50px;
-        height: 50px;
-        bottom: 100px;
+    .boton-wsp {
+        display: none;
     }
 }
 
@@ -920,10 +919,6 @@ form:first-child {
 
     .pie {
         flex-direction: column;
-    }
-
-    .boton-wsp img {
-        bottom: 160px;
     }
 
     .slide img {
@@ -995,7 +990,7 @@ form:first-child {
     }
 
     .hero h2 {
-        font-size: 1.7rem;
+        font-size: 1.75rem;
     }
 }
 
@@ -1012,17 +1007,6 @@ form:first-child {
         height: 50vh;
     }
 
-    .accordion-button::after {
-        width : 0;
-        height: 0;
-    }
-
-    .accordion-body {
-        font-size: 1rem;
-    }
-}
-
-@media screen and (max-width:410px) {
     .slider-card {
         height: 100px;
     }
@@ -1039,8 +1023,17 @@ form:first-child {
         font-size: 0.8rem;
     }
 
+    .accordion-button::after {
+        width : 0;
+        height: 0;
+    }
+
+    .accordion-body {
+        font-size: 1rem;
+    }
+
     .hero h2 {
-        font-size: 1.5rem;
+        font-size: 1.55rem;
     }
 }
 
@@ -1102,6 +1095,6 @@ form:first-child {
     }
 
     .hero h2 {
-        font-size: 1.3rem;
+        font-size: 1.32rem;
     }
 }
