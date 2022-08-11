@@ -589,12 +589,6 @@ main {
     padding-top: 30px;
 }
 
-.contacto .animate__animated {
-    color             : #221313d3;
-    animation         : zoomIn;
-    animation-duration: 3s;
-}
-
 .contenedor {
     padding: 30px;
 }
