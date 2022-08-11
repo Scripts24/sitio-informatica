@@ -1,0 +1,41 @@
+@import "../base/variables";
+
+/*.....HEADER.....*/
+/*.....Modificación estilos navbar Bootstrap.....*/
+.navbar {
+    background-color: $color-principal;
+}
+
+.logo {
+    width : 100px;
+    height: 80px;
+}
+
+.nav-link{
+    color      : $color-contraste !important;
+    font-size  : 20px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+}
+
+.nav-item:hover {
+    border-radius   : 4px;
+    background-color: rgba(252, 248, 248, 0.13);
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
+}
+
+.navbar-light .navbar-toggler {
+    color : $color-terciario;
+    border: 1px solid $color-terciario;
+}
+
+.navbar-toggler:not(.collapsep)::after {
+    filter: brightness(0%) invert(20%);
+}
+
+.navbar-toggler:focus {
+    box-shadow: inherit;
+}

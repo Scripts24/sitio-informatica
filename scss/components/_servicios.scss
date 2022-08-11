@@ -1,0 +1,79 @@
+/*---Page Servicios---*/
+
+.placa-servicios{
+        display        : flex;
+        justify-content: center;
+        align-items    : center;
+        img{
+            width  : 350px;
+            padding: 30px 0;
+        }
+    }
+p{
+        text-align: justify;
+        padding   : 0 35px;
+    }
+
+.camaras{
+    h2{
+        margin-top   : 30px;
+        margin-bottom: 20px;
+    }
+    .container-camaras{
+        width          : 100%;
+        display        : flex;
+        justify-content: center;
+        flex-wrap      : wrap;
+        img{
+            width             : 240px;
+            height            : 440px;
+            margin            : 40px;
+            transition        : 300ms;
+            position          : relative;
+            box-shadow        : 10px -8px 5px 0px rgba(0, 0, 0, 0.75);
+            -webkit-box-shadow: 10px -8px 5px 0px rgba(0, 0, 0, 0.75);
+            -moz-box-shadow   : 10px -8px 5px 0px rgba(0, 0, 0, 0.75);
+        &:hover{
+            transform: scale(1.2);
+        }
+        }
+    }
+}
+
+.info-util{
+    h2{
+        margin-top: 20px;
+    }
+    p{
+        text-align: justify;
+        padding   : 0 35px;
+    }
+    h3{
+        text-align: center;
+    }
+}
+.antivirus {
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+    .antivirus-img {
+        width         : 450px;
+        padding-top   : 30px;
+        padding-bottom: 30px
+    }
+    .antivirus-table  {
+        margin    : 20px 0 40px 0;
+        text-align: center;
+        width     : 70%;
+        thead{
+            height: 60px;
+        }
+        tbody{
+            td{
+                width : 150px;
+                height: 100px;
+            }
+        }
+    }
+}
+

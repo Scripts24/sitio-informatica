@@ -1,0 +1,91 @@
+@import "./variables";
+
+@import url('https://fonts.googleapis.com/css2? family= Libre+Baskerville:ital,wght@0,400;0,700;1,400 & family= Nunito:ital,wght@0,200;0,300;0,400;0,600;1,200;1,300;1,400;1,600 & mostrar=intercambiar');
+
+* {
+    margin    : 0;
+    padding   : 0;
+    box-sizing: border-box;
+}
+
+body h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 700;
+}
+
+h1 {
+    text-align    : center;
+    color         : $color-basico;
+    letter-spacing: 2px;
+    padding-top   : 20px;
+}
+
+h2 {
+    text-align: center;
+    color     : $color-basico;
+}
+
+
+p {
+    font-family: 'Nunito', sans-serif;
+}
+
+/*.....MAIN.....*/
+
+main {
+    background-color: $color-terciario;
+}
+
+/*.....Redimensión Iframe.....*/
+
+.youtube-wrapper {
+    width: 40%;
+}
+
+.video-youtube {
+    height        : 0px;
+    padding-bottom: 56.25%;
+    padding-top   : 25px;
+    position      : relative;
+}
+
+.video-youtube iframe {
+    position: absolute;
+    top     : 0;
+    left    : 0;
+    height  : 100%;
+    width   : 100%;
+}
+
+.conteiner-wrapper {
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+    margin-top     : 40px;
+    margin-bottom  : 40px;
+}
+
+
+/*---Para Index y Pages---*/
+
+.boton-wsp {
+    a{
+        img {
+            position        : fixed;
+            width           : 65px;
+            height          : 65px;
+            bottom          : 90px;
+            right           : 15px;
+            background-color: $color-terciario;
+            border-radius   : 60px;
+        &:hover{
+            background-color: $color-contraste;
+        }
+            }
+    }
+}
