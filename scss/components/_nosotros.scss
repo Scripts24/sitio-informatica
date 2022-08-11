@@ -1,0 +1,80 @@
+@import "../base/variables";
+
+/*---PAGE NOSOTROS---*/
+
+.hero{
+    background-image     : url("../img/banner1.png");
+    margin-bottom        : 20px;
+    width                : 100%;
+    height               : 80vh;
+    background-position  : center;
+    background-size      : cover;
+    background-repeat    : no-repeat;
+    background-attachment: fixed;
+    display              : flex;
+    justify-content      : center;
+    align-items          : center;
+    .titulo{
+        width: 90%;
+        .titulo-hero{
+            font-size: 50px;
+            color    : #D9D9D9;
+        }
+        .subtitulo-hero {
+            font-size: 40px;
+            color    : #d9d9d9e3;
+        }
+    }
+}   
+
+
+/*---Modificación estilos accordion de Bootstrap---*/
+.accordion {
+    padding: 20px 20px;
+}
+
+.accordion-item {
+    border: 1px solid #A65851;
+}
+
+.accordion-button {
+    color    : $color-basico;
+    font-size: 24px;
+}
+
+.accordion-button:not(.collapsep) {
+    background: $color-contraste;
+    color     : $color-basico;
+}
+
+.accordion-button:not(.collapsep)::after {
+    filter: brightness(0%) invert(20%);
+}
+
+.accordion-button:focus {
+    box-shadow: inherit;
+}
+
+.accordion-button:hover {
+    color: #48556a;
+}
+
+.accordion-body {
+    background-color: rgba(250, 186, 250, 0.699);
+}
+
+.accordion-body ul {
+    list-style-type: none;
+    margin         : 0;
+    padding        : 0;
+    font-family    : 'Nunito', sans-serif;
+}
+/*---ubicación---*/
+.mapa{
+    h2{
+        margin-top: 20px;
+    }
+    iframe{
+        width: 100%;
+    }
+}

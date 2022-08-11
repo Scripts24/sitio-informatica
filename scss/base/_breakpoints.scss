@@ -97,7 +97,6 @@
     }
 }
 
-
 @media screen and (max-width:620px) {
     .antivirus .antivirus-img {
         width: 350px;
@@ -187,11 +186,11 @@
         height: 55vh;
     }
 
-    .hero h1 {
+    .hero .titulo .titulo-hero {
         font-size: 2rem;
     }
 
-    .hero h2 {
+    .hero .titulo .subtitulo-hero {
         font-size: 1.75rem;
     }
 }
@@ -234,7 +233,7 @@
         font-size: 1rem;
     }
 
-    .hero h2 {
+    .hero .titulo .subtitulo-hero {
         font-size: 1.55rem;
     }
 }
@@ -296,7 +295,7 @@
         font-size: 0.75rem;
     }
 
-    .hero h2 {
+    .hero .titulo .subtitulo-hero {
         font-size: 1.32rem;
     }
 }
