@@ -127,7 +127,7 @@ main {
     margin-bottom: 30px;
 }
 
-.container {
+.contain {
     max-width            : 1300px;
     margin               : 0 auto;
     padding              : 0 30px;
@@ -136,7 +136,7 @@ main {
     gap                  : 10px;
 }
 
-.container h4 {
+.contain h4 {
     font-size: 24px;
 }
 
@@ -791,11 +791,11 @@ footer div a img {
 /*---Responsive max-width---*/
 
 @media screen and (max-width:1075px) {
-    .container {
+    .contain {
         grid-template-columns: 1fr;
     }
 
-    .container>div {
+    .contain>div {
         grid-column: 1;
     }
 
