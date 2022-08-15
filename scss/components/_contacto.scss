@@ -1,13 +1,15 @@
 @import "../base/variables";
+@import "../base/map";
 /*---PAGE CONTACTO---*/
 .contacto{
     max-width            : 100%;
     height               : 100%;
     background-image     : url("../img/system.jpg");
-    background-size      : cover;
-    background-repeat    : no-repeat;
-    background-attachment: fixed;
-    background-position  : center;
+    /*Mapa*/
+    background-size: map-get($imgfondo, bg-size);
+    background-repeat: map-get($imgfondo, bg-repeat);
+    background-attachment: map-get($imgfondo, bg-attachment);
+    background-position: map-get($imgfondo, bg-position);
     .titulo-contacto{
         padding-top: 30px;
     }

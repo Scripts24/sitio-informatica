@@ -1,4 +1,6 @@
 @import "../base/variables";
+@import "../base/mixin";
+@import "../base/map";
 
 /*---PAGE NOSOTROS---*/
 
@@ -7,13 +9,13 @@
     margin-bottom        : 20px;
     width                : 100%;
     height               : 80vh;
-    background-position  : center;
-    background-size      : cover;
-    background-repeat    : no-repeat;
-    background-attachment: fixed;
-    display              : flex;
-    justify-content      : center;
-    align-items          : center;
+    /*Mapa*/
+    background-size: map-get($imgfondo, bg-size);
+    background-repeat: map-get($imgfondo, bg-repeat);
+    background-attachment: map-get($imgfondo, bg-attachment);
+    background-position: map-get($imgfondo, bg-position);
+    /*Mixin*/
+    @include flex(flex, center, center);
     .titulo{
         width: 90%;
         .titulo-hero{

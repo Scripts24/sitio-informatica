@@ -1,9 +1,10 @@
+@import "../base/mixin";
+@import "../base/extend";
 /*---Page Servicios---*/
 
 .placa-servicios{
-        display        : flex;
-        justify-content: center;
-        align-items    : center;
+        /*Mixin*/
+        @include flex(flex, center, center);
         img{
             width  : 350px;
             padding: 30px 0;
@@ -21,9 +22,8 @@ p{
     }
     .container-camaras{
         width          : 100%;
-        display        : flex;
-        justify-content: center;
-        flex-wrap      : wrap;
+        /*Extend*/
+        @extend %flex;
         img{
             width             : 240px;
             height            : 440px;
@@ -53,9 +53,8 @@ p{
     }
 }
 .antivirus {
-    display        : flex;
-    justify-content: center;
-    align-items    : center;
+    /*Mixin*/
+    @include flex(flex, center, center);
     .antivirus-img {
         width         : 450px;
         padding-top   : 30px;

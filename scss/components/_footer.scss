@@ -1,11 +1,11 @@
 @import "../base/variables";
+@import "../base/mixin";
 
 /*---FOOTER---*/
 footer{
     background-color: $color-principal;
-    display         : flex;
-    justify-content : space-evenly;
-    align-items     : center;
+    /*Mixin*/ 
+    @include flex(flex, space-evenly, center);
     a{
         .top{
             width : 50px;
