@@ -266,6 +266,152 @@ main {
       width: 150px;
       height: 100px; }
 
+/*PAGE TODO TECNO*/
+/*Slider*/
+.todo-tecno p {
+  text-align: justify;
+  padding: 0 30px; }
+
+.todo-tecno .slider {
+  width: 100%;
+  overflow: hidden;
+  margin-top: 20px;
+  margin-bottom: 20px; }
+  .todo-tecno .slider ul {
+    display: flex;
+    width: 300%;
+    animation: transition 30s infinite alternate linear; }
+    .todo-tecno .slider ul li {
+      width: 100%;
+      list-style: none;
+      padding-left: 5px; }
+      .todo-tecno .slider ul li .slider-card {
+        width: 100%;
+        height: 250px;
+        border: 2px solid #0D0D0D;
+        border-radius: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-size: cover; }
+        .todo-tecno .slider ul li .slider-card div {
+          width: 90%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          margin-top: 70px; }
+          .todo-tecno .slider ul li .slider-card div h3 {
+            color: #D9D9D9;
+            background-color: #0808088a; }
+          .todo-tecno .slider ul li .slider-card div a {
+            text-decoration: none;
+            background-color: #0808088a;
+            padding: 5px;
+            color: #D9D9D9;
+            border-radius: 5px; }
+      .todo-tecno .slider ul li .slider-card-img1 {
+        background-image: url("../img/mac1.jpg"); }
+      .todo-tecno .slider ul li .slider-card-img2 {
+        background-image: url("../img/dell.jpg"); }
+      .todo-tecno .slider ul li .slider-card-img3 {
+        background-image: url("../img/hp.jpg"); }
+      .todo-tecno .slider ul li .slider-card-img4 {
+        background-image: url("../img/dell1.jpg"); }
+      .todo-tecno .slider ul li .slider-card-img5 {
+        background-image: url("../img/lg.png"); }
+      .todo-tecno .slider ul li .slider-card-img6 {
+        background-image: url("../img/acer.png"); }
+      .todo-tecno .slider ul li .slider-card-img7 {
+        background-image: url("../img/mac2.png"); }
+      .todo-tecno .slider ul li .slider-card-img8 {
+        background-image: url("../img/asus.jpg"); }
+
+@keyframes transition {
+  0% {
+    margin-left: 0; }
+  20% {
+    margin-left: -50%; }
+  40% {
+    margin-left: -100%; }
+  60% {
+    margin-left: -150%; }
+  80% {
+    margin-left: -200%; }
+  100% {
+    margin-left: 0; } }
+
+/*---Grid Windows---*/
+.todo-tecno h3 {
+  text-align: center; }
+
+.todo-tecno .grid-conteiner-windows {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 30px 30px;
+  height: auto;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(180px, auto); }
+  .todo-tecno .grid-conteiner-windows .grid-item-windows {
+    background-color: #3E4C59;
+    border: 5px solid;
+    position: relative; }
+    .todo-tecno .grid-conteiner-windows .grid-item-windows img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; }
+    .todo-tecno .grid-conteiner-windows .grid-item-windows h4 {
+      position: absolute;
+      bottom: 0;
+      color: #D9D9D9;
+      background-color: rgba(13, 13, 14, 0.61);
+      width: 100%; }
+  .todo-tecno .grid-conteiner-windows .grid-item-2 {
+    grid-column: 2 / 4;
+    grid-row: 1 / 3; }
+  .todo-tecno .grid-conteiner-windows .grid-item-4 {
+    grid-row: 3 / 5; }
+  .todo-tecno .grid-conteiner-windows .grid-item-8 {
+    grid-column: 3 / 4;
+    grid-row: 4 / 6; }
+  .todo-tecno .grid-conteiner-windows .grid-item-9 {
+    grid-column: 1 / 3;
+    grid-row: 5 / 7; }
+  .todo-tecno .grid-conteiner-windows .grid-item-12 {
+    grid-column: 2 / 4;
+    grid-row: 7 / 9; }
+
+/*---Cards Bootstrap con efecto en imagen---*/
+/*---Clases agregadas para dar efecto---*/
+.cards h2 {
+  margin-top: 20px; }
+
+.cards .container {
+  padding-bottom: 40px; }
+  .cards .container .img-efect {
+    overflow: hidden; }
+    .cards .container .img-efect img {
+      transition: all 1.5s ease; }
+      .cards .container .img-efect img:hover {
+        transform: scale(1.5);
+        cursor: pointer; }
+
+/*---Modificación estilos Cards Bootstrap---*/
+.card {
+  border-radius: 8px;
+  border: 4px solid rgba(170, 81, 81, 0.685); }
+
+.card img {
+  border-bottom: 4px solid rgba(170, 81, 81, 0.685); }
+
+.card-body h5 {
+  color: #0D0D0D;
+  box-shadow: 7px 0px 5px 4px rgba(171, 48, 48, 0.75);
+  -webkit-box-shadow: 7px 0px 5px 4px rgba(171, 48, 48, 0.75);
+  -moz-box-shadow: 7px 0px 5px 4px rgba(171, 48, 48, 0.75); }
+
 /*---PAGE CONTACTO---*/
 .contacto {
   max-width: 100%;
@@ -449,13 +595,13 @@ footer {
 @media screen and (max-width: 991px) {
   .nav-link {
     text-align: center; }
-  .grid-conteiner-windows {
+  .todo-tecno .grid-conteiner-windows {
     grid-template-columns: repeat(2, 2fr);
     grid-auto-rows: minmax(120px, auto); }
-  .grid-item-windows {
+  .todo-tecno .grid-conteiner-windows .grid-item-windows {
     grid-column: span 1;
     grid-row: span 1; }
-  .grid-item-11 {
+  .todo-tecno .grid-conteiner-windows .grid-item-11 {
     grid-column: span 2; }
   .youtube-wrapper {
     width: 60%; } }
@@ -467,19 +613,19 @@ footer {
     font-size: 0.9rem; } }
 
 @media screen and (max-width: 900px) {
-  .slider-card {
+  .todo-tecno .slider ul li .slider-card {
     height: 200px; }
   .boton-wsp {
     display: none; } }
 
 @media screen and (max-width: 800px) {
-  .slider-card div {
+  .todo-tecno .slider ul li .slider-card div {
     margin-top: 60px; }
-  .slider-card {
+  .todo-tecno .slider ul li .slider-card {
     height: 160px; }
-  .slider-card h3 {
+  .todo-tecno .slider ul li .slider-card h3 {
     font-size: 1.35rem; }
-  .slider-card a {
+  .todo-tecno .slider ul li .slider-card a {
     font-size: 1 rem; }
   .youtube-wrapper {
     width: 70%; } }
@@ -487,13 +633,13 @@ footer {
 @media screen and (max-width: 620px) {
   .antivirus .antivirus-img {
     width: 350px; }
-  .slider-card div {
+  .todo-tecno .slider ul li .slider-card div {
     margin-top: 50px; }
-  .slider-card {
+  .todo-tecno .slider ul li .slider-card {
     height: 130px; }
-  .slider-card h3 {
+  .todo-tecno .slider ul li .slider-card h3 {
     font-size: 1.25rem; }
-  .slider-card a {
+  .todo-tecno .slider ul li .slider-card a {
     font-size: 0.9rem; }
   footer {
     flex-direction: column; }
@@ -501,13 +647,13 @@ footer {
     height: 55vh; } }
 
 @media screen and (max-width: 530px) {
-  .slider-card {
+  .todo-tecno .slider ul li .slider-card {
     height: 110px; }
-  .slider-card h3 {
+  .todo-tecno .slider ul li .slider-card h3 {
     font-size: 1.12rem; }
-  .slider-card a {
+  .todo-tecno .slider ul li .slider-card a {
     font-size: 0.75rem; }
-  .slider-card div {
+  .todo-tecno .slider ul li .slider-card div {
     margin-top: 35px; }
   .grid-item-windows h4 {
     font-size: 1.12rem; } }
@@ -517,11 +663,11 @@ footer {
     font-size: 1.4rem; }
   p {
     font-size: 1rem; }
-  .slider-card {
+  .todo-tecno .slider ul li .slider-card {
     height: 110px; }
-  .slider-card h3 {
+  .todo-tecno .slider ul li .slider-card h3 {
     font-size: 1rem; }
-  .slider-card a {
+  .todo-tecno .slider ul li .slider-card a {
     font-size: 0.75rem; }
   .button-form {
     font-size: 1rem; }
@@ -543,11 +689,11 @@ footer {
     font-size: 0.6rem; }
   .slide img {
     height: 50vh; }
-  .slider-card {
+  .todo-tecno .slider ul li .slider-card {
     height: 100px; }
-  .slider-card h3 {
+  .todo-tecno .slider ul li .slider-card h3 {
     font-size: 0.9rem; }
-  .slider-card a {
+  .todo-tecno .slider ul li .slider-card a {
     font-size: 0.5rem; }
   .grid-item-windows h4 {
     font-size: 0.8rem; }
@@ -576,13 +722,13 @@ footer {
     width: 280px; }
   .antivirus .antivirus-img {
     width: 280px; }
-  .slider-card {
+  .todo-tecno .slider ul li .slider-card {
     height: 90px; }
-  .slider-card h3 {
+  .todo-tecno .slider ul li .slider-card h3 {
     font-size: 0.7rem; }
-  .slider-card a {
+  .todo-tecno .slider ul li .slider-card a {
     font-size: 0.5rem; }
-  .slider-card div {
+  .todo-tecno .slider ul li .slider-card div {
     padding-bottom: 5px; }
   .contacto .titulo-contacto {
     font-size: 1.3rem; }

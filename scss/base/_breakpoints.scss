@@ -37,17 +37,17 @@
         text-align: center;
     }
 
-    .grid-conteiner-windows {
+    .todo-tecno .grid-conteiner-windows {
         grid-template-columns: repeat(2, 2fr);
         grid-auto-rows       : minmax(120px, auto);
     }
 
-    .grid-item-windows {
+    .todo-tecno .grid-conteiner-windows .grid-item-windows {
         grid-column: span 1;
         grid-row   : span 1;
     }
 
-    .grid-item-11 {
+    .todo-tecno .grid-conteiner-windows .grid-item-11 {
         grid-column: span 2;
     }
 
@@ -67,7 +67,7 @@
 }
 
 @media screen and (max-width:900px) {
-    .slider-card {
+    .todo-tecno .slider ul li .slider-card  {
         height: 200px;
     }
 
@@ -77,19 +77,19 @@
 }
 
 @media screen and (max-width:800px) {
-    .slider-card div {
+    .todo-tecno .slider ul li .slider-card div {
         margin-top: 60px;
     }
 
-    .slider-card {
+    .todo-tecno .slider ul li .slider-card {
         height: 160px;
     }
 
-    .slider-card h3 {
+    .todo-tecno .slider ul li .slider-card h3 {
         font-size: 1.35rem;
     }
 
-    .slider-card a {
+    .todo-tecno .slider ul li .slider-card a {
         font-size: 1 rem;
     }
 
@@ -103,19 +103,19 @@
         width: 350px;
     }
 
-    .slider-card div {
+    .todo-tecno .slider ul li .slider-card div {
         margin-top: 50px;
     }
 
-    .slider-card {
+    .todo-tecno .slider ul li .slider-card {
         height: 130px;
     }
 
-    .slider-card h3 {
+    .todo-tecno .slider ul li .slider-card h3 {
         font-size: 1.25rem;
     }
 
-    .slider-card a {
+    .todo-tecno .slider ul li .slider-card a {
         font-size: 0.9rem;
     }
 
@@ -129,19 +129,19 @@
 }
 
 @media screen and (max-width:530px) {
-    .slider-card {
+    .todo-tecno .slider ul li .slider-card {
         height: 110px;
     }
 
-    .slider-card h3 {
+    .todo-tecno .slider ul li .slider-card h3 {
         font-size: 1.12rem;
     }
 
-    .slider-card a {
+    .todo-tecno .slider ul li .slider-card a {
         font-size: 0.75rem;
     }
 
-    .slider-card div {
+    .todo-tecno .slider ul li .slider-card div {
         margin-top: 35px;
     }
 
@@ -159,15 +159,15 @@
         font-size: 1rem;
     }
 
-    .slider-card {
+    .todo-tecno .slider ul li .slider-card {
         height: 110px;
     }
 
-    .slider-card h3 {
+    .todo-tecno .slider ul li .slider-card h3 {
         font-size: 1rem;
     }
 
-    .slider-card a {
+    .todo-tecno .slider ul li .slider-card a {
         font-size: 0.75rem;
     }
 
@@ -209,15 +209,15 @@
         height: 50vh;
     }
 
-    .slider-card {
+    .todo-tecno .slider ul li .slider-card {
         height: 100px;
     }
 
-    .slider-card h3 {
+    .todo-tecno .slider ul li .slider-card h3 {
         font-size: 0.9rem;
     }
 
-    .slider-card a {
+    .todo-tecno .slider ul li .slider-card a {
         font-size: 0.5rem;
     }
 
@@ -268,19 +268,19 @@
         width: 280px;
     }
 
-    .slider-card {
+    .todo-tecno .slider ul li .slider-card {
         height: 90px;
     }
 
-    .slider-card h3 {
+    .todo-tecno .slider ul li .slider-card h3 {
         font-size: 0.7rem;
     }
 
-    .slider-card a {
+    .todo-tecno .slider ul li .slider-card a {
         font-size: 0.5rem;
     }
 
-    .slider-card div {
+    .todo-tecno .slider ul li .slider-card div {
         padding-bottom: 5px;
     }
     .contacto .titulo-contacto{
