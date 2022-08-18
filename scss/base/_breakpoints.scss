@@ -2,31 +2,32 @@
 /*---Responsive max-width---*/
 
 @media screen and (max-width:1075px) {
-    .container {
+    .presentacion  .contain{
         grid-template-columns: 1fr;
     }
-
-    .container>div {
+    
+    .presentacion .contain .box-jobs{
         grid-column: 1;
-    }
-
-    .box-jobs {
         grid-row: 1;
     }
 
-    .box-cook {
+    .presentacion .contain .box-cook  {
+        grid-column: 1;
         grid-row: 2;
     }
 
-    .box-gates {
+    .presentacion .contain .box-gates {
+        grid-column: 1;
         grid-row: 3;
     }
 
-    .box-bezos {
+    .presentacion .contain .box-bezos{
+        grid-column: 1;
         grid-row: 4;
     }
-
-    .box-musk {
+    
+    .presentacion .contain .box-musk  {
+        grid-column: 1;
         grid-row: 5;
     }
 }
@@ -150,7 +151,7 @@
 }
 
 @media screen and (max-width:488px) {
-    .titulo-sitio {
+    .titulo-inicio {
         font-size: 1.4rem;
     }
 
@@ -241,7 +242,7 @@
 }
 
 @media screen and (max-width:380px) {
-    .titulo-sitio {
+    .titulo-inicio {
         font-size: 1.2rem;
     }
 

@@ -32,8 +32,8 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- Animate on scroll-->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <!-- Hoja de estilos-->
-    <link rel="stylesheet" href="./css/backup.css">
+    <!-- Hoja de estilos SASS-->
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
@@ -72,7 +72,7 @@
     </header>
     <!-- Fin encabezado y navbar con logo Bootstrap-->
     <!-- Inicio contenido principal-->
-    <main class="principal">
+    <main>
         <!-- Carousel Bootstrap -->
         <section class="container-carousel">
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -108,103 +108,101 @@
             </div>
         </section>
         <!-- Fin carousel -->
-        <section>
-            <h1 class="titulo-sitio">SYSTEM INFORMÁTICA</h1>
+        <section class="presentacion">
+            <h1 class="titulo-inicio">SYSTEM INFORMÁTICA</h1>
             <!--Inicio Galería Grid-->
-            <div class="grid-genios">
-                <h2>Genios que nos inspiran</h2>
-                <div class="contain">
-                    <div class="grid-box color-uno box-jobs">
-                        <div class="box-genios">
-                            <img src="./img/stevejobs.jpg" alt="Steve Jobs" />
-                            <div class="box-name">
-                                <h4>Steve Jobs</h4>
-                                <p class="small">Cofundador de Apple</p>
-                            </div>
+            <h2>Genios que nos inspiran</h2>
+            <div class="contain">
+                <div class="grid-box box-jobs">
+                    <div class="box-genios">
+                        <img src="./img/stevejobs.jpg" alt="Steve Jobs" />
+                        <div class="box-name">
+                            <h3>Steve Jobs</h3>
+                            <p class="small">Cofundador de Apple</p>
                         </div>
-                        <p class="citas">
-                            - La innovación distingue a los líderes de los seguidores. <br>
-                            - Muchas veces la gente no sabe lo que quiere hasta que se lo enseñas.<br>
-                            - La mitad de lo que separa a los emprendedores exitosos de los que no triunfan es la
-                            perseverancia.<br>
-                            -Tu tiempo es limitado, así que no lo malgastes viviendo la vida de otra persona. No dejes
-                            que
-                            el ruido de las opiniones de otros apague tu propia voz interior.<br>
-                            -Cuando se innova, se corre el riesgo de cometer errores. Es mejor admitirlo rápidamente y
-                            continuar con otra innovación.
-                        </p>
                     </div>
-                    <div class="grid-box color-dos box-cook">
-                        <div class="box-genios">
-                            <img src="./img/timcook.png" alt="Tim Cook" />
-                            <div class="box-name">
-                                <h4>Tim Cook</h4>
-                                <p class="small">CEO de Apple</p>
-                            </div>
+                    <p class="citas">
+                        -La innovación distingue a los líderes de los seguidores. <br>
+                        -Muchas veces la gente no sabe lo que quiere hasta que se lo enseñas.<br>
+                        -La mitad de lo que separa a los emprendedores exitosos de los que no triunfan es la
+                        perseverancia.<br>
+                        -Tu tiempo es limitado, así que no lo malgastes viviendo la vida de otra persona. No dejes
+                        que
+                        el ruido de las opiniones de otros apague tu propia voz interior.<br>
+                        -Cuando se innova, se corre el riesgo de cometer errores. Es mejor admitirlo rápidamente y
+                        continuar con otra innovación.
+                    </p>
+                </div>
+                <div class="grid-box box-cook">
+                    <div class="box-genios">
+                        <img src="./img/timcook.png" alt="Tim Cook" />
+                        <div class="box-name">
+                            <h3>Tim Cook</h3>
+                            <p class="small">CEO de Apple</p>
                         </div>
-                        <p class="citas">
-                            - La vida es frágil. No tenemos garantizado un mañana, así que da lo mejor de ti.<br>
-                            - Mi filosofía siempre ha sido ser el mejor, no ser el primero.<br>
-                            - Puedes centrarte en las barreras o bien en escalar el muro y redefinir el problema.
-                        </p>
                     </div>
-                    <div class="grid-box color-tres box-gates">
-                        <div class="box-genios">
-                            <img src="./img/billgates.jpg" alt="Bill Gates" />
-                            <div class="box-name">
-                                <h4>Bill Gates</h4>
-                                <p class="small">Cofundador de Microsoft</p>
-                            </div>
+                    <p class="citas">
+                        -La vida es frágil. No tenemos garantizado un mañana, así que da lo mejor de ti.<br>
+                        -Mi filosofía siempre ha sido ser el mejor, no ser el primero.<br>
+                        -Puedes centrarte en las barreras o bien en escalar el muro y redefinir el problema.
+                    </p>
+                </div>
+                <div class="grid-box box-gates">
+                    <div class="box-genios">
+                        <img src="./img/billgates.jpg" alt="Bill Gates" />
+                        <div class="box-name">
+                            <h3>Bill Gates</h3>
+                            <p class="small">Cofundador de Microsoft</p>
                         </div>
-                        <p class="citas">
-                            - La vida es injusta, acostúmbrate a ello.<br>
-                            - Está bien celebrar el éxito, pero es más importante prestar atención a las lecciones del
-                            fracaso.<br>
-                            - Las grandes oportunidades nacen de haber sabido aprovechar las pequeñas. <br>
-                            -Ser inundado con información no quiere decir que tengamos la información correcta o que
-                            estemos
-                            en contacto con las personas correctas. <br>
-                            -He sido muy afortunado, por eso tengo la obligación de intentar reducir las desigualdades
-                            en el
-                            mundo. Es una forma de creencia religiosa. <br>
-                            -Sea Google, Apple o software libre, tenemos competidores fantásticos y eso nos mantiene los
-                            pies sobre el suelo.
-                        </p>
                     </div>
-                    <div class="grid-box color-tres box-bezos">
-                        <div class="box-genios">
-                            <img src="./img/jeffbezos.jpg" alt="Jeff Bezos" />
-                            <div class="box-name">
-                                <h4>Jeff Bezos</h4>
-                                <p class="small">Fundador y CEO de Amazon</p>
-                            </div>
+                    <p class="citas">
+                        -La vida es injusta, acostúmbrate a ello.<br>
+                        -Está bien celebrar el éxito, pero es más importante prestar atención a las lecciones del
+                        fracaso.<br>
+                        -Las grandes oportunidades nacen de haber sabido aprovechar las pequeñas. <br>
+                        -Ser inundado con información no quiere decir que tengamos la información correcta o que
+                        estemos
+                        en contacto con las personas correctas. <br>
+                        -He sido muy afortunado, por eso tengo la obligación de intentar reducir las desigualdades
+                        en el
+                        mundo. Es una forma de creencia religiosa. <br>
+                        -Sea Google, Apple o software libre, tenemos competidores fantásticos y eso nos mantiene los
+                        pies sobre el suelo.
+                    </p>
+                </div>
+                <div class="grid-box box-bezos">
+                    <div class="box-genios">
+                        <img src="./img/jeffbezos.jpg" alt="Jeff Bezos" />
+                        <div class="box-name">
+                            <h3>Jeff Bezos</h3>
+                            <p class="small">Fundador y CEO de Amazon</p>
                         </div>
-                        <p class="citas">
-                            - Si decides hacer solo las cosas que sabes que van a funcionar, dejarás un montón de
-                            oportunidades encima de la mesa.<br>
-                            - Tu margen es mi oportunidad.<br>
-                            - El único modo de salir de una caja cerrada es inventar la manera de salir.
-                        </p>
                     </div>
-                    <div class="grid-box color-cuatro box-musk">
-                        <div class="box-genios">
-                            <img src="./img/elonmusk.jpg" alt="Elon Musk" />
-                            <div class="box-name">
-                                <h4>Elon Musk</h4>
-                                <p class="small">Cofundador de Paypal, Space X Y Tesla</p>
-                            </div>
+                    <p class="citas">
+                        -Si decides hacer solo las cosas que sabes que van a funcionar, dejarás un montón de
+                        oportunidades encima de la mesa.<br>
+                        -Tu margen es mi oportunidad.<br>
+                        -El único modo de salir de una caja cerrada es inventar la manera de salir.
+                    </p>
+                </div>
+                <div class="grid-box box-musk">
+                    <div class="box-genios">
+                        <img src="./img/elonmusk.jpg" alt="Elon Musk" />
+                        <div class="box-name">
+                            <h3>Elon Musk</h3>
+                            <p class="small">Cofundador de Paypal, Space X Y Tesla</p>
                         </div>
-                        <p class="citas">
-                            - Creo que este es el mejor consejo: piensa constantemente cómo podrías hacer mejor las
-                            cosas.<br>
-                            - Si algo es lo suficientemente importante, deberías intentarlo. Incluso si el resultado
-                            probable es el fracaso.<br>
-                            - Creo que es posible que la gente normal elija ser extraordinaria. <br>
-                            -No te distraigas pensando que algo puede funcionar cuando no lo está haciendo, o te vas a
-                            quedar permanentemente en una solución equivocada. <br>
-                            -La vida es demasiado corta para rencores a largo plazo.
-                        </p>
                     </div>
+                    <p class="citas">
+                        -Creo que este es el mejor consejo: piensa constantemente cómo podrías hacer mejor las
+                        cosas.<br>
+                        -Si algo es lo suficientemente importante, deberías intentarlo. Incluso si el resultado
+                        probable es el fracaso.<br>
+                        -Creo que es posible que la gente normal elija ser extraordinaria. <br>
+                        -No te distraigas pensando que algo puede funcionar cuando no lo está haciendo, o te vas a
+                        quedar permanentemente en una solución equivocada. <br>
+                        -La vida es demasiado corta para rencores a largo plazo.
+                    </p>
                 </div>
             </div>
         </section>
@@ -212,23 +210,23 @@
         <!-- Inicio Ofertas con animación-->
         <section class="ofertas">
             <h2>Ofertas increíbles</h2>
-            <div>
-                <div data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+            <div class="content-ofertas" >
+                <div class="cards-ofertas" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                     <img src="./img/windowsoffice.png" alt="costo instalación windows">
                     <h3>Windows + office</h3>
                     <a href="https://api.whatsapp.com/send?phone=542215657734" target="_blank">Reservar</a>
                 </div>
-                <div data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                <div class="cards-ofertas" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                     <img src="./img/linux.png" alt="costo instalación linux">
                     <h3>Distribución Linux</h3>
                     <a href="https://api.whatsapp.com/send?phone=542215657734" target="_blank">Reservar</a>
                 </div>
-                <div data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                <div class="cards-ofertas"  data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                     <img src="./img/arranquedual.png" alt="costo dual boot">
                     <h3>Arranque dual</h3>
                     <a href="https://api.whatsapp.com/send?phone=542215657734" target="_blank">Reservar</a>
                 </div>
-                <div data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                <div class="cards-ofertas"  data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                     <img src="./img/adobe.png" alt="programas Adobe">
                     <h3>Pack por 3 = $500</h3>
                     <a href="https://api.whatsapp.com/send?phone=542215657734" target="_blank">Reservar</a>
