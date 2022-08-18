@@ -166,8 +166,7 @@ main {
         padding: 0; }
     .presentacion .contain .grid-box .citas {
       font-size: 18px;
-      color: #fff;
-      padding: 0; }
+      color: #fff; }
 
 /*Ofertas*/
 .ofertas h2 {
@@ -206,16 +205,16 @@ main {
   flex-wrap: wrap; }
 
 /*---Page Servicios---*/
-.placa-servicios {
+.servicios .placa-servicios {
   /*Mixin*/
   display: flex;
   justify-content: center;
   align-items: center; }
-  .placa-servicios img {
+  .servicios .placa-servicios img {
     width: 350px;
     padding: 30px 0; }
 
-p {
+.servicios p {
   text-align: justify;
   padding: 0 35px; }
 
@@ -567,6 +566,8 @@ footer {
     font-size: 1.2rem; }
   .grid-genios h2 {
     font-size: 1.3rem; }
+  .presentacion .contain .grid-box .citas {
+    font-size: 0.85rem; }
   p {
     font-size: 0.75rem; }
   .slide img {

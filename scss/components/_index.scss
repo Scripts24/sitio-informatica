@@ -50,10 +50,10 @@
         grid-column: 2/4;
     }
     .grid-box{
-        padding      : 15px;
+        padding      : 15px;  
         border-radius: 10px;
         .box-genios{
-            display    : flex;
+            display    :     flex;
             justify-content: center;
             img{
                 border-radius: 50%;
@@ -75,7 +75,6 @@
         .citas{
             font-size: 18px;
             color: #fff;
-            padding: 0;
         }
     }
   } 

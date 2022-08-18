@@ -2,7 +2,8 @@
 @import "../base/extend";
 /*---Page Servicios---*/
 
-.placa-servicios{
+.servicios{
+    .placa-servicios{
         /*Mixin*/
         @include flex(flex, center, center);
         img{
@@ -10,10 +11,11 @@
             padding: 30px 0;
         }
     }
-p{
+    p{
         text-align: justify;
         padding   : 0 35px;
     }
+} 
 
 .camaras{
     h2{
