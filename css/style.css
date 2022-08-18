@@ -63,7 +63,7 @@ main {
   height: 65px;
   bottom: 90px;
   right: 15px;
-  background-color: #D9D9D9;
+  background-color: #fff;
   border-radius: 60px; }
   .boton-wsp a img:hover {
     background-color: #F28F79; }
@@ -312,7 +312,7 @@ main {
       min-height: 50px;
       margin-bottom: 15px;
       padding-top: 10px;
-      color: #D9D9D9;
+      color: #fff;
       display: block;
       border: none;
       border-bottom: 4px solid #F28F79;
@@ -361,10 +361,10 @@ main {
     width: 90%; }
     .hero .titulo .titulo-hero {
       font-size: 50px;
-      color: #D9D9D9; }
+      color: #fff; }
     .hero .titulo .subtitulo-hero {
       font-size: 40px;
-      color: #d9d9d9e3; }
+      color: #D9D9D9; }
 
 /*---Modificación estilos accordion de Bootstrap---*/
 .accordion {
@@ -388,7 +388,7 @@ main {
   box-shadow: inherit; }
 
 .accordion-button:hover {
-  color: #48556a; }
+  color: #3E4C59; }
 
 .accordion-body {
   background-color: rgba(250, 186, 250, 0.699); }
@@ -417,7 +417,7 @@ footer {
     width: 50px;
     height: 50px; }
   footer p {
-    color: #D9D9D9;
+    color: #fff;
     margin: 10px 0 10px 0;
     text-align: center; }
   footer div a img {

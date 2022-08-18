@@ -26,16 +26,16 @@
                 padding-top: 25px;
             }
             .text-label{
-                color        : $color-contraste;
+                color        : $color-salmon;
                 margin-bottom: 5px;
             }
             .text-datos{
                 height       : 50px;
                 margin-bottom: 10px;
-                color        : $color-terciario;
+                color        : $color-tiza;
                 display      : block;
                 border       : none;
-                border-bottom: 4px solid $color-contraste;
+                border-bottom: 4px solid $color-salmon;
                 background   : rgba(0, 0, 0, 0.7);
                 width        : 100%;
                 margin-top   : 10px;
@@ -52,10 +52,10 @@
                 min-height   : 50px;
                 margin-bottom: 15px;
                 padding-top  : 10px;
-                color        : $color-terciario;
+                color        : $color-blanco;
                 display      : block;
                 border       : none;
-                border-bottom: 4px solid $color-contraste;
+                border-bottom: 4px solid $color-salmon;
                 background   : rgba(0, 0, 0, 0.7);
                 width        : 100%;
                 margin-top   : 10px;
@@ -74,15 +74,15 @@
                 width        : 100%;
                 height       : 45px;
                 border       : none;
-                color        : $color-terciario;
-                background   : $color-basico;
+                color        : $color-tiza;
+                background   : $color-negro;
                 margin-bottom: 25px;
                 font-size    : 20px;
                 cursor       : pointer;
                 &:hover{
-                    border-bottom: 4px solid $color-contraste;
+                    border-bottom: 4px solid $color-salmon;
                     background   : rgba(0, 0, 0, 0.7);
-                    color        : $color-contraste;
+                    color        : $color-salmon;
                     transition   : all 0.7s ease;
                 }
             }

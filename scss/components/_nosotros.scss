@@ -20,11 +20,11 @@
         width: 90%;
         .titulo-hero{
             font-size: 50px;
-            color    : $color-terciario;
+            color    : $color-blanco;
         }
         .subtitulo-hero {
             font-size: 40px;
-            color    : #d9d9d9e3;
+            color    : $color-tiza;
         }
     }
 }   
@@ -36,17 +36,17 @@
 }
 
 .accordion-item {
-    border: 1px solid #A65851;
+    border: 1px solid $color-ladrillo;
 }
 
 .accordion-button {
-    color    : $color-basico;
+    color    : $color-negro;
     font-size: 24px;
 }
 
 .accordion-button:not(.collapsep) {
-    background: $color-contraste;
-    color     : $color-basico;
+    background: $color-salmon;
+    color     : $color-negro;
 }
 
 .accordion-button:not(.collapsep)::after {
@@ -58,7 +58,7 @@
 }
 
 .accordion-button:hover {
-    color: #48556a;
+    color: $color-gris;
 }
 
 .accordion-body {

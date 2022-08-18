@@ -3,7 +3,7 @@
 
 /*---FOOTER---*/
 footer{
-    background-color: $color-principal;
+    background-color: $color-plomizo;
     /*Mixin*/ 
     @include flex(flex, space-evenly, center);
     a{
@@ -13,7 +13,7 @@ footer{
         }
     }
     p{
-        color     : $color-terciario;
+        color     : $color-blanco;
         margin    : 10px 0 10px 0;
         text-align: center;
     }

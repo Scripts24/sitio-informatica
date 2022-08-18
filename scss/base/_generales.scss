@@ -21,14 +21,14 @@ h6 {
 
 h1 {
     text-align    : center;
-    color         : $color-basico;
+    color         :$color-negro;
     letter-spacing: 2px;
     padding-top   : 20px;
 }
 
 h2 {
     text-align: center;
-    color     : $color-basico;
+    color     : $color-negro;
 }
 
 
@@ -39,7 +39,7 @@ p {
 /*.....MAIN.....*/
 
 main {
-    background-color: $color-terciario;
+    background-color: $color-tiza;
 }
 
 /*.....Redimensión Iframe.....*/
@@ -80,10 +80,10 @@ main {
             height          : 65px;
             bottom          : 90px;
             right           : 15px;
-            background-color: $color-terciario;
+            background-color: $color-blanco;
             border-radius   : 60px;
         &:hover{
-            background-color: $color-contraste;
+            background-color: $color-salmon;
         }
             }
     }
