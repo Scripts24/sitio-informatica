@@ -37,20 +37,6 @@
         text-align: center;
     }
 
-    .todo-tecno .grid-conteiner-windows {
-        grid-template-columns: repeat(2, 2fr);
-        grid-auto-rows       : minmax(120px, auto);
-    }
-
-    .todo-tecno .grid-conteiner-windows .grid-item-windows {
-        grid-column: span 1;
-        grid-row   : span 1;
-    }
-
-    .todo-tecno .grid-conteiner-windows .grid-item-11 {
-        grid-column: span 2;
-    }
-
     .youtube-wrapper {
         width: 60%;
     }
@@ -144,10 +130,6 @@
     .todo-tecno .slider ul li .slider-card div {
         margin-top: 35px;
     }
-
-    .grid-item-windows h4 {
-        font-size: 1.12rem;
-    }
 }
 
 @media screen and (max-width:488px) {
@@ -173,10 +155,6 @@
 
     .button-form {
         font-size: 1rem;
-    }
-
-    .grid-item-windows h4 {
-        font-size: 0.9rem;
     }
 
     .youtube-wrapper {
@@ -221,9 +199,6 @@
         font-size: 0.5rem;
     }
 
-    .grid-item-windows h4 {
-        font-size: 0.8rem;
-    }
     .contacto .titulo-contacto{
         font-size: 1.5rem;
     }
@@ -249,9 +224,11 @@
     .grid-genios h2 {
         font-size: 1.3rem;
     }
+
     .presentacion .contain .grid-box .citas{
         font-size: 0.85rem;
     }
+
     p {
         font-size: 0.75rem;
     }
@@ -260,8 +237,8 @@
         height: 40vh;
     }
 
-    .placa-servicios img {
-        width: 280px;
+    .servicios .placa-servicios img{
+        width: 240px;
     }
 
     .antivirus .antivirus-img {
@@ -277,25 +254,23 @@
     }
 
     .todo-tecno .slider ul li .slider-card a {
-        font-size: 0.5rem;
+        font-size: 0.55rem;
     }
 
     .todo-tecno .slider ul li .slider-card div {
         padding-bottom: 5px;
     }
+
     .contacto .titulo-contacto{
         font-size: 1.3rem;
     }
+
     .text-datos {
         font-size: 0.75rem;
     }
 
     .textarea {
         font-size: 0.75rem;
-    }
-
-    .grid-item-windows h4 {
-        font-size: 0.7rem;
     }
 
     .accordion-body {
