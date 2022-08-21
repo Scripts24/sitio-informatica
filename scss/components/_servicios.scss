@@ -3,19 +3,66 @@
 /*---Page Servicios---*/
 
 .servicios{
-    .placa-servicios{
+    .conteiner-placa{
         /*Mixin*/
         @include flex(flex, center, center);
-        img{
-            width  : 350px;
-            padding: 30px 0;
+        .placa-servicios{
+            height: 500px;
+            margin: 50px;
+            box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.86);
+            -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.86);
+            -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.86);
+            overflow: hidden;
+            border-radius: 8px;
+            img{
+                height: 500px;
+                width: 350px;
+                border-radius: 8px;
+            }
+            .box-texto{
+                width: 350px;
+                padding-top: 20px;
+                position: relative;
+                color: white;
+                bottom: 200px;
+                border-radius: 8px;
+                h3{
+                    margin: 10px;
+                    text-align: center;
+                    font-size: 35px;
+                    visibility: hidden;
+                    opacity: 0;
+                }
+                p{
+                    font-size: 20px;
+                    font-weight: bold;
+                    text-align: center;
+                    visibility: hidden;
+                    opacity: 0;
+                }
+            }
+            &:hover{
+                cursor: pointer;
+                .box-texto{
+                    height: 220px;
+                    background-image: linear-gradient(to right bottom, #0f0f0e, #383633, #66615c, #9a8e89, #d1bebb);
+                }
+                h3{
+                    opacity: 1;
+                    visibility: visible;  
+                }
+                p{
+                    opacity: 1;
+                    visibility: visible;   
+                }
+            }
         }
     }
     p{
         text-align: justify;
         padding   : 0 35px;
     }
-} 
+}
 
 .camaras{
     h2{
@@ -53,26 +100,26 @@
     h3{
         text-align: center;
     }
-}
-.antivirus {
-    /*Mixin*/
-    @include flex(flex, center, center);
-    .antivirus-img {
-        width         : 450px;
-        padding-top   : 30px;
-        padding-bottom: 30px
-    }
-    .antivirus-table  {
-        margin    : 20px 0 40px 0;
-        text-align: center;
-        width     : 70%;
-        thead{
-            height: 60px;
+    .antivirus {
+        /*Mixin*/
+        @include flex(flex, center, center);
+        .antivirus-img {
+            width         : 450px;
+            padding-top   : 30px;
+            padding-bottom: 30px
         }
-        tbody{
-            td{
-                width : 150px;
-                height: 100px;
+        .antivirus-table  {
+            margin    : 20px 0 40px 0;
+            text-align: center;
+            width     : 70%;
+            thead{
+                height: 60px;
+            }
+            tbody{
+                td{
+                    width : 150px;
+                    height: 100px;
+                }
             }
         }
     }

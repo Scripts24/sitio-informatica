@@ -205,14 +205,53 @@ main {
   flex-wrap: wrap; }
 
 /*---Page Servicios---*/
-.servicios .placa-servicios {
+.servicios .conteiner-placa {
   /*Mixin*/
   display: flex;
   justify-content: center;
   align-items: center; }
-  .servicios .placa-servicios img {
-    width: 350px;
-    padding: 30px 0; }
+  .servicios .conteiner-placa .placa-servicios {
+    height: 500px;
+    margin: 50px;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.86);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.86);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.86);
+    overflow: hidden;
+    border-radius: 8px; }
+    .servicios .conteiner-placa .placa-servicios img {
+      height: 500px;
+      width: 350px;
+      border-radius: 8px; }
+    .servicios .conteiner-placa .placa-servicios .box-texto {
+      width: 350px;
+      padding-top: 20px;
+      position: relative;
+      color: white;
+      bottom: 200px;
+      border-radius: 8px; }
+      .servicios .conteiner-placa .placa-servicios .box-texto h3 {
+        margin: 10px;
+        text-align: center;
+        font-size: 35px;
+        visibility: hidden;
+        opacity: 0; }
+      .servicios .conteiner-placa .placa-servicios .box-texto p {
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        visibility: hidden;
+        opacity: 0; }
+    .servicios .conteiner-placa .placa-servicios:hover {
+      cursor: pointer; }
+      .servicios .conteiner-placa .placa-servicios:hover .box-texto {
+        height: 220px;
+        background-image: linear-gradient(to right bottom, #0f0f0e, #383633, #66615c, #9a8e89, #d1bebb); }
+      .servicios .conteiner-placa .placa-servicios:hover h3 {
+        opacity: 1;
+        visibility: visible; }
+      .servicios .conteiner-placa .placa-servicios:hover p {
+        opacity: 1;
+        visibility: visible; }
 
 .servicios p {
   text-align: justify;
@@ -247,22 +286,22 @@ main {
 .info-util h3 {
   text-align: center; }
 
-.antivirus {
+.info-util .antivirus {
   /*Mixin*/
   display: flex;
   justify-content: center;
   align-items: center; }
-  .antivirus .antivirus-img {
+  .info-util .antivirus .antivirus-img {
     width: 450px;
     padding-top: 30px;
     padding-bottom: 30px; }
-  .antivirus .antivirus-table {
+  .info-util .antivirus .antivirus-table {
     margin: 20px 0 40px 0;
     text-align: center;
     width: 70%; }
-    .antivirus .antivirus-table thead {
+    .info-util .antivirus .antivirus-table thead {
       height: 60px; }
-    .antivirus .antivirus-table tbody td {
+    .info-util .antivirus .antivirus-table tbody td {
       width: 150px;
       height: 100px; }
 
@@ -390,7 +429,8 @@ main {
           padding: 0;
           font-size: 12px; }
     .todo-tecno .contenedor-flex .box:hover .descripcion {
-      transform: scaleY(1); }
+      transform: scaleY(1);
+      cursor: pointer; }
 
 /*---Cards Bootstrap con efecto en imagen---*/
 /*---Clases agregadas para dar efecto---*/
@@ -608,9 +648,9 @@ footer {
     width: 60%; } }
 
 @media screen and (max-width: 936px) {
-  .antivirus .antivirus-table thead td {
+  .info-util .antivirus .antivirus-table thead td {
     font-size: 1rem; }
-  .antivirus .antivirus-table thead td {
+  .info-util .antivirus .antivirus-table thead td {
     font-size: 0.9rem; } }
 
 @media screen and (max-width: 900px) {
@@ -632,7 +672,7 @@ footer {
     width: 70%; } }
 
 @media screen and (max-width: 620px) {
-  .antivirus .antivirus-img {
+  .info-util .antivirus .antivirus-img {
     width: 350px; }
   .todo-tecno .slider ul li .slider-card div {
     margin-top: 50px; }
@@ -662,6 +702,16 @@ footer {
     font-size: 1.4rem; }
   p {
     font-size: 1rem; }
+  .servicios .conteiner-placa .placa-servicios {
+    width: 300px;
+    height: 380px; }
+  .servicios .conteiner-placa .placa-servicios img {
+    width: 300px;
+    height: 380px; }
+  .servicios .conteiner-placa .placa-servicios .box-texto {
+    width: 300px; }
+  .servicios .conteiner-placa .placa-servicios .box-texto h3 {
+    font-size: 30px; }
   .todo-tecno .slider ul li .slider-card {
     height: 110px; }
   .todo-tecno .slider ul li .slider-card h3 {
@@ -680,9 +730,21 @@ footer {
     font-size: 1.75rem; } }
 
 @media screen and (max-width: 428px) {
-  .antivirus .antivirus-table thead td {
+  .servicios .conteiner-placa .placa-servicios {
+    width: 220px;
+    height: 320px; }
+  .servicios .conteiner-placa .placa-servicios img {
+    width: 220px;
+    height: 320px; }
+  .servicios .conteiner-placa .placa-servicios .box-texto {
+    width: 220px; }
+  .servicios .conteiner-placa .placa-servicios .box-texto h3 {
+    font-size: 25px; }
+  .servicios .conteiner-placa .placa-servicios .box-texto p {
+    font-size: 18px; }
+  .info-util .antivirus .antivirus-table thead td {
     font-size: 0.7rem; }
-  .antivirus .antivirus-table tbody td {
+  .info-util .antivirus .antivirus-table tbody td {
     font-size: 0.6rem; }
   .slide img {
     height: 50vh; }
@@ -713,9 +775,7 @@ footer {
     font-size: 0.75rem; }
   .slide img {
     height: 40vh; }
-  .servicios .placa-servicios img {
-    width: 240px; }
-  .antivirus .antivirus-img {
+  .info-util .antivirus .antivirus-img {
     width: 280px; }
   .todo-tecno .slider ul li .slider-card {
     height: 90px; }

@@ -43,11 +43,11 @@
 }
 
 @media screen and (max-width:936px) {
-    .antivirus .antivirus-table thead td{
+    .info-util .antivirus .antivirus-table thead td{
         font-size: 1rem;
     }
 
-    .antivirus .antivirus-table thead td {
+    .info-util .antivirus .antivirus-table thead td {
         font-size: 0.9rem;
     }
 }
@@ -85,7 +85,7 @@
 }
 
 @media screen and (max-width:620px) {
-    .antivirus .antivirus-img {
+    .info-util .antivirus .antivirus-img {
         width: 350px;
     }
 
@@ -141,6 +141,24 @@
         font-size: 1rem;
     }
 
+    .servicios .conteiner-placa .placa-servicios{
+        width: 300px;
+        height:380px
+    }
+
+    .servicios .conteiner-placa .placa-servicios img{
+        width: 300px;
+        height:380px
+    }
+
+    .servicios .conteiner-placa .placa-servicios .box-texto{
+        width: 300px;
+    }
+
+    .servicios .conteiner-placa .placa-servicios .box-texto h3{
+        font-size: 30px;
+    }
+
     .todo-tecno .slider ul li .slider-card {
         height: 110px;
     }
@@ -175,11 +193,33 @@
 }
 
 @media screen and (max-width:428px) {
-    .antivirus .antivirus-table thead td {
+    .servicios .conteiner-placa .placa-servicios{
+        width: 220px;
+        height:320px
+    }
+
+    .servicios .conteiner-placa .placa-servicios img{
+        width: 220px;
+        height:320px
+    }
+
+    .servicios .conteiner-placa .placa-servicios .box-texto{
+        width: 220px;
+    }
+
+    .servicios .conteiner-placa .placa-servicios .box-texto h3{
+        font-size: 25px;
+    }
+
+    .servicios .conteiner-placa .placa-servicios .box-texto p{
+        font-size: 18px;
+    }
+
+    .info-util .antivirus .antivirus-table thead td {
         font-size: 0.7rem;
     }
 
-    .antivirus .antivirus-table tbody td {
+    .info-util .antivirus .antivirus-table tbody td {
         font-size: 0.6rem;
     }
 
@@ -237,11 +277,7 @@
         height: 40vh;
     }
 
-    .servicios .placa-servicios img{
-        width: 240px;
-    }
-
-    .antivirus .antivirus-img {
+    .info-util .antivirus .antivirus-img {
         width: 280px;
     }
 
