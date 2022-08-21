@@ -6,17 +6,6 @@ footer{
     background-color: $color-plomizo;
     /*Mixin*/ 
     @include flex(flex, space-evenly, center);
-    a{
-        .top{
-            width : 50px;
-            height: 50px;
-        }
-    }
-    p{
-        color     : $color-blanco;
-        margin    : 10px 0 10px 0;
-        text-align: center;
-    }
     div{
         a{
         img{
@@ -24,6 +13,17 @@ footer{
         height : 50px;
         padding: 3px;
         }
+        }
     }
+    p{
+        color     : $color-blanco;
+        margin    : 10px 0 10px 0;
+        text-align: center;
+    }
+
+    .powered{
+        width : 200px;
+        height: 60px;
+        border-radius: 10px;
     }
 }
