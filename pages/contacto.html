@@ -72,13 +72,13 @@
     </header>
     <!-- Fin encabezado y navbar con logo Bootstrap-->
     <!-- Inicio contenido principal-->
-    <main class="principal">
+    <main>
         <!-- Inicio formulario con validación de Bootstrap-->
         <section class="contacto">
             <!-- Animación h1-->
             <h1 class=" titulo-contacto animate__animated animate__zoomIn animate__delay-2s ">ENVÍA TU CONSULTA</h1>
             <div class="contenedor">
-                <form action="" method="post" class="needs-validation" novalidate autocomplete="off">
+                <form action="https://formspree.io/f/xdojknaq" method="post" class="needs-validation" novalidate autocomplete="off">
                     <div class="position-relative">
                         <label for="name" class="text-label">Nombre</label>
                         <input type="text" class="text-datos" placeholder="Ingresa tu nombre" required>
@@ -100,13 +100,13 @@
                     </div>
                     <div class="position-relative">
                         <label for="email" class="text-label">Correo</label>
-                        <input type="email" class="text-datos" placeholder="Ingresa tu correo" required>
+                        <input type="email" name="email" class="text-datos" placeholder="Ingresa tu correo" required>
                         <div class="valid-tooltip">Campo Ok</div>
                         <div class="invalid-tooltip">Camplete el campo</div>
                     </div>
                     <div class="position-relative">
                         <label for="messagge" class="text-label">Consulta</label>
-                        <textarea class="textarea" placeholder="Ingresa tu consulta" required></textarea>
+                        <textarea name="message" class="textarea" placeholder="Ingresa tu consulta" required></textarea>
                         <div class="valid-tooltip">Campo Ok</div>
                         <div class="invalid-tooltip">Camplete el campo</div>
                     </div>
