@@ -40,7 +40,7 @@
                         h3{
                             color           : $color-tiza;
                             background-color: #0808088a;
-                        }
+                            }
                         a{
                             text-decoration : none;
                             background-color: #0808088a;
@@ -161,7 +161,7 @@
             }
             &:hover .descripcion{
                 transform: scaleY(1);
-                cursor: pointer;
+                cursor   : pointer;
             }    
         }
     }

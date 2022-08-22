@@ -6,7 +6,6 @@ footer{
     background-color: $color-plomizo;
     /*Mixin*/ 
     @include flex(flex, row, wrap, space-evenly, center);
-  
     div{
         a{
         img{
@@ -24,8 +23,8 @@ footer{
     }
 
     .powered{
-        width : 200px;
-        height: 60px;
+        width        : 200px;
+        height       : 60px;
         border-radius: 10px;
     }
 }

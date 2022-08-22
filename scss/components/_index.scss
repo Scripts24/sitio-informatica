@@ -9,16 +9,16 @@
 }
 /*Grid*/
 .presentacion{
-  .titulo-inicio{
+    .titulo-inicio{
     box-shadow        : 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
     -moz-box-shadow   : 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-  }
-  h2{
+    }
+    h2{
     margin-top   : 30px;
     margin-bottom: 30px;
-  } 
-  .contain{
+    } 
+    .contain{
     max-width            : 1300px;
     margin               : 0 auto;
     padding              : 0 30px;
@@ -76,9 +76,9 @@
         .citas{
             font-size: 18px;
             color: $color-blanco;
+            }
         }
-    }
- } 
+    } 
 }
 
 /*Ofertas*/

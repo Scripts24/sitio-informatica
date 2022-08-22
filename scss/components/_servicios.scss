@@ -1,3 +1,4 @@
+@import "../base/variables";
 @import "../base/mixin";
 @import "../base/extend";
 
@@ -8,52 +9,52 @@
         /*Mixin*/
         @include flex(flex, row, nowrap, center, center);
         .placa-servicios{
-            height: 500px;
-            margin: 50px;
-            box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.86);
+            height       : 500px;
+            margin       : 50px;
+            box-shadow   : 10px 10px 5px 0px rgba(0,0,0,0.86);
             -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.86);
             -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.86);
-            overflow: hidden;
+            overflow     : hidden;
             border-radius: 8px;
             img{
-                height: 500px;
-                width: 350px;
+                height       : 500px;
+                width        : 350px;
                 border-radius: 8px;
-            }
+                }
             .box-texto{
-                width: 350px;
-                padding-top: 20px;
-                position: relative;
-                color: $color-blanco;
-                bottom: 200px;
+                width        : 350px;
+                padding-top  : 20px;
+                position     : relative;
+                color        : $color-blanco;
+                bottom       : 200px;
                 border-radius: 8px;
                 h3{
-                    margin: 10px;
+                    margin    : 10px;
                     text-align: center;
-                    font-size: 35px;
+                    font-size : 35px;
                     visibility: hidden;
-                    opacity: 0;
+                    opacity   : 0;
                 }
                 p{
-                    font-size: 20px;
+                    font-size  : 20px;
                     font-weight: bold;
-                    text-align: center;
-                    visibility: hidden;
-                    opacity: 0;
+                    text-align : center;
+                    visibility : hidden;
+                    opacity    : 0;
                 }
             }
             &:hover{
                 cursor: pointer;
                 .box-texto{
-                    height: 220px;
+                    height          : 220px;
                     background-image: linear-gradient(to right bottom, #0f0f0e, #383633, #66615c, #9a8e89, #d1bebb);
                 }
                 h3{
-                    opacity: 1;
+                    opacity   : 1;
                     visibility: visible;  
                 }
                 p{
-                    opacity: 1;
+                    opacity   : 1;
                     visibility: visible;   
                 }
             }
@@ -85,7 +86,7 @@
             -moz-box-shadow   : 10px -8px 5px 0px rgba(0, 0, 0, 0.75);
         &:hover{
             transform: scale(1.2);
-        }
+            }
         }
     }
 }

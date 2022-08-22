@@ -10,10 +10,10 @@
     width                : 100%;
     height               : 80vh;
     /*Mapa*/
-    background-size: map-get($imgfondo, bg-size);
-    background-repeat: map-get($imgfondo, bg-repeat);
+    background-size      : map-get($imgfondo, bg-size);
+    background-repeat    : map-get($imgfondo, bg-repeat);
     background-attachment: map-get($imgfondo, bg-attachment);
-    background-position: map-get($imgfondo, bg-position);
+    background-position  : map-get($imgfondo, bg-position);
     /*Mixin*/
     @include flex(flex, row, nowrap, center, center);
     .titulo{
