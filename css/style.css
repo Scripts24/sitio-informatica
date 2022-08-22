@@ -51,6 +51,7 @@ main {
 .conteiner-wrapper {
   /*Mixin*/
   display: flex;
+  flex-flow: row nowrap;
   justify-content: center;
   align-items: center;
   margin-top: 40px;
@@ -136,7 +137,7 @@ main {
     grid-row: 1;
     grid-column: 3/4; }
   .presentacion .contain .box-gates {
-    background: #F28F79;
+    background: #A65851;
     grid-row: 1/3;
     grid-column: 4/5; }
   .presentacion .contain .box-bezos {
@@ -151,8 +152,11 @@ main {
     padding: 15px;
     border-radius: 10px; }
     .presentacion .contain .grid-box .box-genios {
+      /*Mixin*/
       display: flex;
-      justify-content: center; }
+      flex-flow: row nowrap;
+      justify-content: center;
+      align-items: stretch; }
       .presentacion .contain .grid-box .box-genios img {
         border-radius: 50%;
         height: 50px;
@@ -173,9 +177,11 @@ main {
   padding: 30px 0; }
 
 .ofertas .content-ofertas {
+  /*Mixin*/
   display: flex;
+  flex-flow: row wrap;
   justify-content: space-around;
-  flex-wrap: wrap; }
+  align-items: stretch; }
   .ofertas .content-ofertas .cards-ofertas {
     width: 300px;
     height: 400px;
@@ -208,6 +214,7 @@ main {
 .servicios .conteiner-placa {
   /*Mixin*/
   display: flex;
+  flex-flow: row nowrap;
   justify-content: center;
   align-items: center; }
   .servicios .conteiner-placa .placa-servicios {
@@ -226,7 +233,7 @@ main {
       width: 350px;
       padding-top: 20px;
       position: relative;
-      color: white;
+      color: #fff;
       bottom: 200px;
       border-radius: 8px; }
       .servicios .conteiner-placa .placa-servicios .box-texto h3 {
@@ -289,6 +296,7 @@ main {
 .info-util .antivirus {
   /*Mixin*/
   display: flex;
+  flex-flow: row nowrap;
   justify-content: center;
   align-items: center; }
   .info-util .antivirus .antivirus-img {
@@ -329,16 +337,20 @@ main {
         height: 250px;
         border: 2px solid #0D0D0D;
         border-radius: 15px;
+        /*Mixin*/
         display: flex;
+        flex-flow: row nowrap;
         justify-content: center;
         align-items: center;
+        /*Mapa*/
         background-size: cover; }
         .todo-tecno .slider ul li .slider-card div {
           width: 90%;
+          /*Mixin*/
           display: flex;
+          flex-flow: column nowrap;
           justify-content: center;
           align-items: center;
-          flex-direction: column;
           margin-top: 70px; }
           .todo-tecno .slider ul li .slider-card div h3 {
             color: #D9D9D9;
@@ -385,9 +397,11 @@ main {
   text-align: center; }
 
 .todo-tecno .contenedor-flex {
+  /*Mixin*/
   display: flex;
+  flex-flow: row wrap;
   justify-content: space-around;
-  flex-wrap: wrap; }
+  align-items: stretch; }
   .todo-tecno .contenedor-flex .box {
     position: relative;
     width: 300px;
@@ -550,6 +564,7 @@ main {
   background-position: center;
   /*Mixin*/
   display: flex;
+  flex-flow: row nowrap;
   justify-content: center;
   align-items: center; }
   .hero .titulo {
@@ -594,7 +609,7 @@ main {
   padding: 0;
   font-family: 'Nunito', sans-serif; }
 
-/*---ubicación---*/
+/*---Ubicación---*/
 .mapa h2 {
   margin-top: 20px; }
 
@@ -606,6 +621,7 @@ footer {
   background-color: #404040;
   /*Mixin*/
   display: flex;
+  flex-flow: row wrap;
   justify-content: space-evenly;
   align-items: center; }
   footer div a img {
@@ -712,7 +728,7 @@ footer {
   .servicios .conteiner-placa .placa-servicios .box-texto {
     width: 300px; }
   .servicios .conteiner-placa .placa-servicios .box-texto h3 {
-    font-size: 30px; }
+    font-size: 1.9rem; }
   .todo-tecno .slider ul li .slider-card {
     height: 110px; }
   .todo-tecno .slider ul li .slider-card h3 {
@@ -740,9 +756,9 @@ footer {
   .servicios .conteiner-placa .placa-servicios .box-texto {
     width: 220px; }
   .servicios .conteiner-placa .placa-servicios .box-texto h3 {
-    font-size: 25px; }
+    font-size: 1.55rem; }
   .servicios .conteiner-placa .placa-servicios .box-texto p {
-    font-size: 18px; }
+    font-size: 1.1rem; }
   .info-util .antivirus .antivirus-table thead td {
     font-size: 0.7rem; }
   .info-util .antivirus .antivirus-table tbody td {

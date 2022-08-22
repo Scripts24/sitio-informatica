@@ -6,7 +6,7 @@
 .servicios{
     .conteiner-placa{
         /*Mixin*/
-        @include flex(flex, center, center);
+        @include flex(flex, row, nowrap, center, center);
         .placa-servicios{
             height: 500px;
             margin: 50px;
@@ -24,7 +24,7 @@
                 width: 350px;
                 padding-top: 20px;
                 position: relative;
-                color: white;
+                color: $color-blanco;
                 bottom: 200px;
                 border-radius: 8px;
                 h3{
@@ -103,7 +103,7 @@
     }
     .antivirus {
         /*Mixin*/
-        @include flex(flex, center, center);
+        @include flex(flex, row, nowrap, center, center);
         .antivirus-img {
             width         : 450px;
             padding-top   : 30px;

@@ -1,4 +1,6 @@
 @import "../base/variables";
+@import "../base/mixin";
+@import "../base/map";
 
 /*PAGE TODO TECNO*/
 
@@ -26,16 +28,14 @@
                     height         : 250px;
                     border         : 2px solid $color-negro;
                     border-radius  : 15px;
-                    display        : flex;
-                    justify-content: center;
-                    align-items    : center;
-                    background-size: cover;
+                    /*Mixin*/
+                    @include flex(flex, row, nowrap, center, center);
+                    /*Mapa*/
+                    background-size: map-get($imgfondo, bg-size);
                     div{
                         width          : 90%;
-                        display        : flex;
-                        justify-content: center;
-                        align-items    : center;
-                        flex-direction : column;
+                        /*Mixin*/
+                        @include flex(flex, column, nowrap, center, center);
                         margin-top     : 70px;
                         h3{
                             color           : $color-tiza;
@@ -111,9 +111,8 @@
         text-align: center;
     }
     .contenedor-flex{
-        display        : flex;
-        justify-content: space-around;
-        flex-wrap      : wrap;
+        /*Mixin*/
+        @include flex(flex, row, wrap, space-around, stretch);
         .box{
             position: relative;
             width   : 300px;

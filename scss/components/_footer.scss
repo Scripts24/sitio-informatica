@@ -5,16 +5,18 @@
 footer{
     background-color: $color-plomizo;
     /*Mixin*/ 
-    @include flex(flex, space-evenly, center);
+    @include flex(flex, row, wrap, space-evenly, center);
+  
     div{
         a{
         img{
         width  : 50px;
         height : 50px;
         padding: 3px;
-        }
+            }
         }
     }
+    
     p{
         color     : $color-blanco;
         margin    : 10px 0 10px 0;

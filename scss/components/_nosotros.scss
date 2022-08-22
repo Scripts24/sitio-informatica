@@ -15,7 +15,7 @@
     background-attachment: map-get($imgfondo, bg-attachment);
     background-position: map-get($imgfondo, bg-position);
     /*Mixin*/
-    @include flex(flex, center, center);
+    @include flex(flex, row, nowrap, center, center);
     .titulo{
         width: 90%;
         .titulo-hero{
@@ -28,7 +28,6 @@
         }
     }
 }   
-
 
 /*---Modificación estilos accordion de Bootstrap---*/
 .accordion {
@@ -71,7 +70,8 @@
     padding        : 0;
     font-family    : 'Nunito', sans-serif;
 }
-/*---ubicación---*/
+
+/*---Ubicación---*/
 .mapa{
     h2{
         margin-top: 20px;
