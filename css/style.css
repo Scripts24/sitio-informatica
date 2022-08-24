@@ -195,7 +195,8 @@ main {
       height: 300px;
       border-radius: 15px 15px 0 0; }
     .ofertas .content-ofertas .cards-ofertas h3 {
-      margin-bottom: 30px;
+      margin-top: 15px;
+      margin-bottom: 15px;
       font-size: 25px;
       line-height: 20px; }
     .ofertas .content-ofertas .cards-ofertas a {
@@ -404,8 +405,8 @@ main {
   align-items: stretch; }
   .todo-tecno .contenedor-flex .box {
     position: relative;
-    width: 300px;
-    height: 170px;
+    width: 420px;
+    height: 235px;
     margin: 10px; }
     .todo-tecno .contenedor-flex .box .imgbox {
       position: relative;
@@ -436,12 +437,12 @@ main {
         .todo-tecno .contenedor-flex .box .descripcion .contenido h4 {
           margin: 0;
           padding: 0;
-          font-size: 18px;
+          font-size: 25px;
           color: #F28F79; }
         .todo-tecno .contenedor-flex .box .descripcion .contenido p {
           margin: 10px 0 0;
           padding: 0;
-          font-size: 12px; }
+          font-size: 16px; }
     .todo-tecno .contenedor-flex .box:hover .descripcion {
       transform: scaleY(1);
       cursor: pointer; }
@@ -771,6 +772,13 @@ footer {
     font-size: 0.9rem; }
   .todo-tecno .slider ul li .slider-card a {
     font-size: 0.5rem; }
+  .todo-tecno .contenedor-flex .box {
+    width: 340px;
+    height: 195px; }
+  .todo-tecno .contenedor-flex .box .descripcion .contenido h4 {
+    font-size: 1rem; }
+  .todo-tecno .contenedor-flex .box .descripcion .contenido p {
+    font-size: 0.7rem; }
   .contacto .titulo-contacto {
     font-size: 1.5rem; }
   .accordion-button::after {
@@ -802,6 +810,13 @@ footer {
     font-size: 0.55rem; }
   .todo-tecno .slider ul li .slider-card div {
     padding-bottom: 5px; }
+  .todo-tecno .contenedor-flex .box {
+    width: 300px;
+    height: 170px; }
+  .todo-tecno .contenedor-flex .box .descripcion .contenido h4 {
+    font-size: 0.8rem; }
+  .todo-tecno .contenedor-flex .box .descripcion .contenido p {
+    font-size: 0.6rem; }
   .contacto .titulo-contacto {
     font-size: 1.3rem; }
   .text-datos {
