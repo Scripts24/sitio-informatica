@@ -5,17 +5,61 @@
 footer{
     background-color: $color-plomizo;
     /*Mixin*/ 
-    @include flex(flex, row, wrap, space-evenly, center);
-    div{
-        a{
-        img{
-        width  : 50px;
-        height : 50px;
-        padding: 3px;
+    @include flex(flex, row, wrap, space-around, center);
+div{
+    ul{ 
+        display:flex;
+        margin: 10px 0;
+        padding-left: 0;
+        li{
+            list-style:none; 
+            a{
+                display:block;
+                width:50px;
+                height:50px;
+                background:$color-plomizo;
+                line-height:50px;
+                text-align:center;
+                margin: 0 10px;
+                border-radius: 15px;
+                box-shadow: -2px -2px 3px rgba(255,255,255,0.05), 3px 3px 3px rgba(0,0,0,0.2);
+                transition: all .2s ease-in-out;
+                font-size:22px;
+                color:$color-tiza;
             }
+        .top {
+            &:hover {
+                color      : #d17537;
+                text-shadow: 0 0 15px #d17537;
+                }
+            } 
+        .whatsapp{
+            &:hover {
+                color      : #4cd137;
+                text-shadow: 0 0 15px #4cd137;
+                }
+            }  
+        .telegram{
+            &:hover {
+                color      : #37bfd1;
+                text-shadow: 0 0 15px #37bfd1;
+                }
+            }  
+        .instagram{
+            &:hover {
+                color      : #d137b7;
+                text-shadow: 0 0 15px #d137b7;
+                }
+            }  
+        .mail   {
+            &:hover {
+                color      : #d13744;
+                text-shadow: 0 0 15px #d13744;
+                }
+            }  
         }
     }
-    
+}
     p{
         color     : $color-blanco;
         margin    : 10px 0 10px 0;
@@ -25,6 +69,7 @@ footer{
     .powered{
         width        : 200px;
         height       : 60px;
-        border-radius: 10px;
+        border-radius: 15px;
+        box-shadow   : -2px -2px 3px rgba(255,255,255,0.05), 3px 3px 3px rgba(0,0,0,0.2);
     }
 }
