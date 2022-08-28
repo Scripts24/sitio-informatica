@@ -2,31 +2,31 @@
 /*---Responsive max-width---*/
 
 @media screen and (max-width:1075px) {
-    .presentacion  .contain{
+    .frases  .contain{
         grid-template-columns: 1fr;
     }
     
-    .presentacion .contain .box-jobs{
+    .frases .contain .box-jobs{
         grid-column: 1;
         grid-row: 1;
     }
 
-    .presentacion .contain .box-cook  {
+    .frases .contain .box-cook  {
         grid-column: 1;
         grid-row: 2;
     }
 
-    .presentacion .contain .box-gates {
+    .frases .contain .box-gates {
         grid-column: 1;
         grid-row: 3;
     }
 
-    .presentacion .contain .box-bezos{
+    .frases .contain .box-bezos{
         grid-column: 1;
         grid-row: 4;
     }
     
-    .presentacion .contain .box-musk  {
+    .frases .contain .box-musk  {
         grid-column: 1;
         grid-row: 5;
     }
@@ -93,6 +93,16 @@ header .btn{
         width: 70%;
     }
 }
+@media screen and (max-width:655px){
+.banner{
+    height: 50vh;
+    }
+
+.banner .banner-content h1{
+        font-size: 1.5rem;
+        }
+    
+}
 
 @media screen and (max-width:620px) {
     .info-util .antivirus .antivirus-img {
@@ -118,13 +128,17 @@ header .btn{
     footer {
         flex-direction: column;
     }
-
-    .slide img {
-        height: 55vh;
-    }
 }
 
 @media screen and (max-width:530px) {
+    .banner .banner-content h1{
+            font-size: 1.8rem;
+            }
+
+    .banner .banner-content a{
+                font-size: 0.8rem;
+            }
+
     .todo-tecno .slider ul li .slider-card {
         height: 110px;
     }
@@ -143,9 +157,9 @@ header .btn{
 }
 
 @media screen and (max-width:488px) {
-    .titulo-inicio {
-        font-size: 1.4rem;
-    }
+    .banner{
+        height: 45vh;
+        }
 
     p {
         font-size: 1rem;
@@ -189,10 +203,6 @@ header .btn{
         width: 80%;
     }
 
-    .slide img {
-        height: 55vh;
-    }
-
     .hero .titulo .titulo-hero {
         font-size: 2rem;
     }
@@ -231,10 +241,6 @@ header .btn{
 
     .info-util .antivirus .antivirus-table tbody td {
         font-size: 0.6rem;
-    }
-
-    .slide img {
-        height: 50vh;
     }
 
     .todo-tecno .slider ul li .slider-card {
@@ -280,24 +286,24 @@ header .btn{
 }
 
 @media screen and (max-width:380px) {
-    .titulo-inicio {
-        font-size: 1.2rem;
-    }
+    .banner{
+        height: 40vh;
+        }
+
+    .banner .banner-content h1{
+        font-size: 1.4rem;
+    }    
 
     .grid-genios h2 {
         font-size: 1.3rem;
     }
 
-    .presentacion .contain .grid-box .citas{
+    .frases .contain .grid-box .citas{
         font-size: 0.85rem;
     }
 
     p {
         font-size: 0.75rem;
-    }
-
-    .slide img {
-        height: 40vh;
     }
 
     .info-util .antivirus .antivirus-img {
