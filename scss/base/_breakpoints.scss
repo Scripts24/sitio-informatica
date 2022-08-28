@@ -33,6 +33,16 @@
 }
 
 @media screen and (max-width:991px) {
+header .btn{
+    margin-top: 5px;
+    margin-bottom: 20px;
+    width: 200px;
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    }
+
     .nav-link {
         text-align: center;
     }

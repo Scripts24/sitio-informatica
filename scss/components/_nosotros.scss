@@ -4,7 +4,7 @@
 
 /*---PAGE NOSOTROS---*/
 
-.hero{
+.hero {
     background-image     : url("../img/banner1.png");
     margin-bottom        : 20px;
     width                : 100%;
@@ -16,18 +16,21 @@
     background-position  : map-get($imgfondo, bg-position);
     /*Mixin*/
     @include flex(flex, row, nowrap, center, center);
-    .titulo{
+
+    .titulo {
         width: 90%;
-        .titulo-hero{
+
+        .titulo-hero {
             font-size: 50px;
             color    : $color-blanco;
         }
+
         .subtitulo-hero {
             font-size: 40px;
             color    : $color-tiza;
         }
     }
-}   
+}
 
 /*---Modificación estilos accordion de Bootstrap---*/
 .accordion {
@@ -72,11 +75,12 @@
 }
 
 /*---Ubicación---*/
-.mapa{
-    h2{
+.mapa {
+    h2 {
         margin-top: 20px;
     }
-    iframe{
+
+    iframe {
         width: 100%;
     }
 }

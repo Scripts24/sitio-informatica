@@ -5,43 +5,50 @@
 /*PAGE TODO TECNO*/
 
 /*Slider*/
-.todo-tecno{
-    p{
+.todo-tecno {
+    p {
         text-align: justify;
         padding   : 0 30px;
     }
-    .slider{
+
+    .slider {
         width        : 100%;
         overflow     : hidden;
         margin-top   : 20px;
         margin-bottom: 20px;
-        ul{
-            display     : flex;
-            width       : 300%;
-            animation   : transition 30s infinite alternate linear; 
-            li{
+
+        ul {
+            display  : flex;
+            width    : 300%;
+            animation: transition 30s infinite alternate linear;
+
+            li {
                 width       : 100%;
                 list-style  : none;
                 padding-left: 5px;
-                .slider-card{
-                    width          : 100%;
-                    height         : 250px;
-                    border         : 2px solid $color-negro;
-                    border-radius  : 15px;
+
+                .slider-card {
+                    width        : 100%;
+                    height       : 250px;
+                    border       : 2px solid $color-negro;
+                    border-radius: 15px;
                     /*Mixin*/
                     @include flex(flex, row, nowrap, center, center);
                     /*Mapa*/
                     background-size: map-get($imgfondo, bg-size);
-                    div{
-                        width          : 90%;
+
+                    div {
+                        width: 90%;
                         /*Mixin*/
                         @include flex(flex, column, nowrap, center, center);
-                        margin-top     : 70px;
-                        h3{
+                        margin-top: 70px;
+
+                        h3 {
                             color           : $color-tiza;
                             background-color: #0808088a;
-                            }
-                        a{
+                        }
+
+                        a {
                             text-decoration : none;
                             background-color: #0808088a;
                             padding         : 5px;
@@ -50,27 +57,35 @@
                         }
                     }
                 }
+
                 .slider-card-img1 {
                     background-image: url("../img/mac1.jpg");
                 }
+
                 .slider-card-img2 {
                     background-image: url("../img/dell.jpg");
                 }
+
                 .slider-card-img3 {
                     background-image: url("../img/hp.jpg");
                 }
+
                 .slider-card-img4 {
                     background-image: url("../img/dell1.jpg");
                 }
+
                 .slider-card-img5 {
                     background-image: url("../img/lg.png");
                 }
+
                 .slider-card-img6 {
                     background-image: url("../img/acer.png");
                 }
+
                 .slider-card-img7 {
                     background-image: url("../img/mac2.png");
                 }
+
                 .slider-card-img8 {
                     background-image: url("../img/asus.jpg");
                 }
@@ -78,6 +93,7 @@
         }
     }
 }
+
 @keyframes transition {
 
     0% {
@@ -106,30 +122,35 @@
 }
 
 /*---Galería flexbox Windows---*/
-.todo-tecno{
-    h3{
+.todo-tecno {
+    h3 {
         text-align: center;
     }
-    .contenedor-flex{
+
+    .contenedor-flex {
         /*Mixin*/
         @include flex(flex, row, wrap, space-around, stretch);
-        .box{
+
+        .box {
             position: relative;
             width   : 420px;
             height  : 235px;
             margin  : 10px;
-            .imgbox{
+
+            .imgbox {
                 position     : relative;
                 overflow     : hidden;
                 border-radius: 5px;
-                img{
+
+                img {
                     max-width    : 100%;
                     height       : 100%;
                     border-radius: 5px;
-                    border       : 2px solid; 
+                    border       : 2px solid;
                 }
             }
-            .descripcion{
+
+            .descripcion {
                 position     : absolute;
                 top          : 10px;
                 left         : 10px;
@@ -139,47 +160,55 @@
                 transform    : scaleY(0);
                 transition   : transform .5s;
                 border-radius: 5px;
-                .contenido{
+
+                .contenido {
                     position  : absolute;
                     top       : 50%;
                     transform : translateY(-50%);
                     text-align: center;
                     padding   : 15px;
                     color     : $color-blanco;
-                    h4{
+
+                    h4 {
                         margin   : 0;
                         padding  : 0;
                         font-size: 25px;
                         color    : $color-salmon;
                     }
-                    p{
+
+                    p {
                         margin   : 10px 0 0;
                         padding  : 0;
                         font-size: 16px;
                     }
                 }
             }
-            &:hover .descripcion{
+
+            &:hover .descripcion {
                 transform: scaleY(1);
                 cursor   : pointer;
-            }    
+            }
         }
     }
 }
 
 /*---Cards Bootstrap con efecto en imagen---*/
 /*---Clases agregadas para dar efecto---*/
-.cards{
-    h2{
+.cards {
+    h2 {
         margin-top: 20px;
     }
-    .container{
+
+    .container {
         padding-bottom: 40px;
-        .img-efect{
+
+        .img-efect {
             overflow: hidden;
-            img{
+
+            img {
                 transition: all 1.5s ease;
-                &:hover{
+
+                &:hover {
                     transform: scale(1.5);
                     cursor   : pointer;
                 }
@@ -187,6 +216,7 @@
         }
     }
 }
+
 /*---Modificación estilos Cards Bootstrap---*/
 .card {
     border-radius: 8px;

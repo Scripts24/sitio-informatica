@@ -9,18 +9,83 @@
 .logo {
     width : 100px;
     height: 80px;
+	padding: 10px;
+	border-radius: 5px;
+	box-shadow:-2px -2px 3px rgba(255,255,255,0.05), 3px 3px 3px rgba(0,0,0,0.2);
 }
 
 .nav-link{
-    color      : $color-salmon !important;
+    color      : $color-blanco !important;
     font-size  : 20px;
     font-family: 'Nunito', sans-serif;
     font-weight: 600;
+    padding: 0;
 }
 
-.nav-item:hover {
-    border-radius   : 4px;
-    background-color: rgba(252, 248, 248, 0.13);
+.btn{
+	margin-left: 20px;
+	cursor:pointer;
+	background:$color-plomizo;
+	border:none;
+	overflow:hidden;
+	position:relative;
+	transition:all 0.4s;
+	box-shadow:-2px -2px 3px rgba(255,255,255,0.05), 3px 3px 3px rgba(0,0,0,0.2);
+	z-index:1;
+	&:after{
+		content:"";
+		position:absolute;
+		height:100%;
+		width:100%;
+		background-color:$color-negro;
+		transition:all 0.4s;
+		z-index:-1;
+	}
+}
+
+.btn-up-animation{
+	&:after{
+		right:0;
+		top:100%;
+	}
+	&:hover{
+		&:after{
+			top:0;
+		}
+	}	
+}
+.btn-left-animation{
+	&:after{
+		top:0;
+		right:100%;
+	}
+	&:hover{
+		&:after{
+			right:0;
+		}
+	}	
+}
+.btn-right-animation{
+	&:after{
+		top:0;
+		left:100%;
+	}
+	&:hover{
+		&:after{
+			left:0;
+		}
+	}	
+}
+.btn-down-animation{
+	&:after{
+		right:0;
+		bottom:100%;
+	}
+	&:hover{
+		&:after{
+			bottom:0;
+		}
+	}	
 }
 
 .navbar-light .navbar-toggler-icon {

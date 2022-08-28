@@ -4,38 +4,43 @@
 
 /*---PAGE SERVICIOS---*/
 
-.servicios{
-    .conteiner-placa{
+.servicios {
+    .conteiner-placa {
         /*Mixin*/
         @include flex(flex, row, nowrap, center, center);
-        .placa-servicios{
-            height       : 500px;
-            margin       : 50px;
-            box-shadow   : 10px 10px 5px 0px rgba(0,0,0,0.86);
-            -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.86);
-            -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.86);
-            overflow     : hidden;
-            border-radius: 8px;
-            img{
+
+        .placa-servicios {
+            height            : 500px;
+            margin            : 50px;
+            box-shadow        : 10px 10px 5px 0px rgba(0, 0, 0, 0.86);
+            -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.86);
+            -moz-box-shadow   : 10px 10px 5px 0px rgba(0, 0, 0, 0.86);
+            overflow          : hidden;
+            border-radius     : 8px;
+
+            img {
                 height       : 500px;
                 width        : 350px;
                 border-radius: 8px;
-                }
-            .box-texto{
+            }
+
+            .box-texto {
                 width        : 350px;
                 padding-top  : 20px;
                 position     : relative;
                 color        : $color-blanco;
                 bottom       : 200px;
                 border-radius: 8px;
-                h3{
+
+                h3 {
                     margin    : 10px;
                     text-align: center;
                     font-size : 35px;
                     visibility: hidden;
                     opacity   : 0;
                 }
-                p{
+
+                p {
                     font-size  : 20px;
                     font-weight: bold;
                     text-align : center;
@@ -43,39 +48,46 @@
                     opacity    : 0;
                 }
             }
-            &:hover{
+
+            &:hover {
                 cursor: pointer;
-                .box-texto{
+
+                .box-texto {
                     height          : 220px;
                     background-image: linear-gradient(to right bottom, #0f0f0e, #383633, #66615c, #9a8e89, #d1bebb);
                 }
-                h3{
+
+                h3 {
                     opacity   : 1;
-                    visibility: visible;  
+                    visibility: visible;
                 }
-                p{
+
+                p {
                     opacity   : 1;
-                    visibility: visible;   
+                    visibility: visible;
                 }
             }
         }
     }
-    p{
+
+    p {
         text-align: justify;
         padding   : 0 35px;
     }
 }
 
-.camaras{
-    h2{
+.camaras {
+    h2 {
         margin-top   : 30px;
         margin-bottom: 20px;
     }
-    .container-camaras{
-        width          : 100%;
+
+    .container-camaras {
+        width: 100%;
         /*Extend*/
         @extend %flex;
-        img{
+
+        img {
             width             : 240px;
             height            : 440px;
             margin            : 40px;
@@ -84,41 +96,49 @@
             box-shadow        : 10px -8px 5px 0px rgba(0, 0, 0, 0.75);
             -webkit-box-shadow: 10px -8px 5px 0px rgba(0, 0, 0, 0.75);
             -moz-box-shadow   : 10px -8px 5px 0px rgba(0, 0, 0, 0.75);
-        &:hover{
-            transform: scale(1.2);
+
+            &:hover {
+                transform: scale(1.2);
             }
         }
     }
 }
 
-.info-util{
-    h2{
+.info-util {
+    h2 {
         margin-top: 20px;
     }
-    p{
+
+    p {
         text-align: justify;
         padding   : 0 35px;
     }
-    h3{
+
+    h3 {
         text-align: center;
     }
+
     .antivirus {
         /*Mixin*/
         @include flex(flex, row, nowrap, center, center);
+
         .antivirus-img {
             width         : 450px;
             padding-top   : 30px;
             padding-bottom: 30px
         }
-        .antivirus-table  {
+
+        .antivirus-table {
             margin    : 20px 0 40px 0;
             text-align: center;
             width     : 70%;
-            thead{
+
+            thead {
                 height: 60px;
             }
-            tbody{
-                td{
+
+            tbody {
+                td {
                     width : 150px;
                     height: 100px;
                 }
@@ -126,4 +146,3 @@
         }
     }
 }
-
