@@ -2,45 +2,43 @@
 /*---Responsive max-width---*/
 
 @media screen and (max-width:1075px) {
-    .frases  .contain{
+    .frases .contain {
         grid-template-columns: 1fr;
     }
-    
-    .frases .contain .box-jobs{
+
+    .frases .contain .box-jobs {
         grid-column: 1;
-        grid-row: 1;
+        grid-row   : 1;
     }
 
-    .frases .contain .box-cook  {
+    .frases .contain .box-cook {
         grid-column: 1;
-        grid-row: 2;
+        grid-row   : 2;
     }
 
     .frases .contain .box-gates {
         grid-column: 1;
-        grid-row: 3;
+        grid-row   : 3;
     }
 
-    .frases .contain .box-bezos{
+    .frases .contain .box-bezos {
         grid-column: 1;
-        grid-row: 4;
+        grid-row   : 4;
     }
-    
-    .frases .contain .box-musk  {
+
+    .frases .contain .box-musk {
         grid-column: 1;
-        grid-row: 5;
+        grid-row   : 5;
     }
 }
 
 @media screen and (max-width:991px) {
-header .btn{
-    margin-top: 5px;
-    margin-bottom: 20px;
-    width: 200px;
-    display: block;
-    margin: auto;
-    margin-top: 5px;
-    margin-bottom: 10px;
+    header .btns {
+        width        : 180px;
+        display      : block;
+        margin       : auto;
+        margin-top   : 5px;
+        margin-bottom: 10px;
     }
 
     .nav-link {
@@ -53,7 +51,7 @@ header .btn{
 }
 
 @media screen and (max-width:936px) {
-    .info-util .antivirus .antivirus-table thead td{
+    .info-util .antivirus .antivirus-table thead td {
         font-size: 1rem;
     }
 
@@ -63,7 +61,7 @@ header .btn{
 }
 
 @media screen and (max-width:900px) {
-    .todo-tecno .slider ul li .slider-card  {
+    .todo-tecno .slider ul li .slider-card {
         height: 200px;
     }
 
@@ -73,10 +71,10 @@ header .btn{
 }
 
 @media screen and (max-width:800px) {
-    .banner{
+    .banner {
         height: 60vh;
-        }
-        
+    }
+
     .todo-tecno .slider ul li .slider-card div {
         margin-top: 60px;
     }
@@ -97,14 +95,15 @@ header .btn{
         width: 70%;
     }
 }
-@media screen and (max-width:655px){
-.banner{
-    height: 50vh;
+
+@media screen and (max-width:655px) {
+    .banner {
+        height: 50vh;
     }
 
-.banner .banner-content h1{
-        font-size:2rem;
-        }
+    .banner .banner-content h1 {
+        font-size: 2rem;
+    }
 }
 
 @media screen and (max-width:620px) {
@@ -134,13 +133,13 @@ header .btn{
 }
 
 @media screen and (max-width:530px) {
-    .banner .banner-content h1{
-            font-size: 1.7rem;
-            }
+    .banner .banner-content h1 {
+        font-size: 1.7rem;
+    }
 
-    .banner .banner-content a{
-                font-size: 0.9rem;
-            }
+    .banner .banner-content a {
+        font-size: 0.9rem;
+    }
 
     .todo-tecno .slider ul li .slider-card {
         height: 110px;
@@ -160,37 +159,37 @@ header .btn{
 }
 
 @media screen and (max-width:488px) {
-    .banner{
+    .banner {
         height: 45vh;
-        }
+    }
 
-    .banner .banner-content h1{
-            font-size: 1.5rem;
-            }
+    .banner .banner-content h1 {
+        font-size: 1.5rem;
+    }
 
-    .banner .banner-content a{
-            font-size: 0.8rem;
-            }
+    .banner .banner-content a {
+        font-size: 0.8rem;
+    }
 
     p {
         font-size: 1rem;
     }
 
-    .servicios .conteiner-placa .placa-servicios{
-        width: 300px;
-        height:380px
+    .servicios .conteiner-placa .placa-servicios {
+        width : 300px;
+        height: 380px
     }
 
-    .servicios .conteiner-placa .placa-servicios img{
-        width: 300px;
-        height:380px
+    .servicios .conteiner-placa .placa-servicios img {
+        width : 300px;
+        height: 380px
     }
 
-    .servicios .conteiner-placa .placa-servicios .box-texto{
+    .servicios .conteiner-placa .placa-servicios .box-texto {
         width: 300px;
     }
 
-    .servicios .conteiner-placa .placa-servicios .box-texto h3{
+    .servicios .conteiner-placa .placa-servicios .box-texto h3 {
         font-size: 1.9rem;
     }
 
@@ -224,29 +223,29 @@ header .btn{
 }
 
 @media screen and (max-width:428px) {
-    .banner .banner-content h1{
+    .banner .banner-content h1 {
         font-size: 1.4rem;
-        }
-
-    .servicios .conteiner-placa .placa-servicios{
-        width: 220px;
-        height:320px
     }
 
-    .servicios .conteiner-placa .placa-servicios img{
-        width: 220px;
-        height:320px
+    .servicios .conteiner-placa .placa-servicios {
+        width : 220px;
+        height: 320px
     }
 
-    .servicios .conteiner-placa .placa-servicios .box-texto{
+    .servicios .conteiner-placa .placa-servicios img {
+        width : 220px;
+        height: 320px
+    }
+
+    .servicios .conteiner-placa .placa-servicios .box-texto {
         width: 220px;
     }
 
-    .servicios .conteiner-placa .placa-servicios .box-texto h3{
+    .servicios .conteiner-placa .placa-servicios .box-texto h3 {
         font-size: 1.55rem;
     }
 
-    .servicios .conteiner-placa .placa-servicios .box-texto p{
+    .servicios .conteiner-placa .placa-servicios .box-texto p {
         font-size: 1.1rem;
     }
 
@@ -270,22 +269,23 @@ header .btn{
         font-size: 0.5rem;
     }
 
-    .todo-tecno .contenedor-flex .box  {
-        width: 340px;
+    .todo-tecno .contenedor-flex .box {
+        width : 340px;
         height: 195px;
     }
 
-    .todo-tecno .contenedor-flex .box .descripcion .contenido h4{
-    font-size: 1rem;
+    .todo-tecno .contenedor-flex .box .descripcion .contenido h4 {
+        font-size: 1rem;
     }
 
-    .todo-tecno .contenedor-flex .box .descripcion .contenido p{
-    font-size: 0.7rem;
+    .todo-tecno .contenedor-flex .box .descripcion .contenido p {
+        font-size: 0.7rem;
     }
 
-    .contacto .titulo-contacto{
+    .contacto .titulo-contacto {
         font-size: 1.5rem;
     }
+
     .accordion-button::after {
         width : 0;
         height: 0;
@@ -301,19 +301,19 @@ header .btn{
 }
 
 @media screen and (max-width:380px) {
-    .banner{
+    .banner {
         height: 40vh;
-        }
+    }
 
-    .banner .banner-content h1{
-            font-size: 1.15rem;
-            }   
+    .banner .banner-content h1 {
+        font-size: 1.15rem;
+    }
 
     .grid-genios h2 {
         font-size: 1.3rem;
     }
 
-    .frases .contain .grid-box .citas{
+    .frases .contain .grid-box .citas {
         font-size: 0.85rem;
     }
 
@@ -341,20 +341,20 @@ header .btn{
         padding-bottom: 5px;
     }
 
-    .todo-tecno .contenedor-flex .box  {
-        width: 300px;
+    .todo-tecno .contenedor-flex .box {
+        width : 300px;
         height: 170px;
     }
 
-    .todo-tecno .contenedor-flex .box .descripcion .contenido h4{
-    font-size: 0.8rem;
+    .todo-tecno .contenedor-flex .box .descripcion .contenido h4 {
+        font-size: 0.8rem;
     }
 
-    .todo-tecno .contenedor-flex .box .descripcion .contenido p{
-    font-size: 0.65rem;
+    .todo-tecno .contenedor-flex .box .descripcion .contenido p {
+        font-size: 0.65rem;
     }
 
-    .contacto .titulo-contacto{
+    .contacto .titulo-contacto {
         font-size: 1.3rem;
     }
 

@@ -8,8 +8,8 @@
 .banner {
     position           : relative;
     width              : 100%;
-    height             : 75vh;
-    background-color   : $color-blanco;
+    height             : 75vh ;
+    background-color   : $color-gris;
     background-size    : map-get($imgfondo, bg-size);
     background-position: map-get($imgfondo, bg-position);
     transition         : all .1s ease-out;
@@ -17,17 +17,17 @@
     animation          : banner 28s infinite linear;
 
     .banner-content {
-        width           : 100%;
-        height          : 100%;
-        color           : $color-blanco;
+        width : 100%;
+        height: 100%;
+        color : $color-blanco;
         @include flex(flex, column, nowrap, center, center);
 
         h1 {
-            color         : $color-tiza;
+            color        : $color-tiza;
             margin-bottom: 10px;
-            padding: 0;
-            font-size     : 50px;
-            background: rgba(0, 0, 0, 0.3);
+            padding      : 0;
+            font-size    : 50px;
+            background   : rgba(0, 0, 0, 0.3);
         }
 
         a {
@@ -38,7 +38,7 @@
             border         : 2px solid $color-tiza;
             transition     : all .3s ease-in-out;
             font-weight    : bold;
-            background: rgba(0, 0, 0, 0.3);
+            background     : rgba(0, 0, 0, 0.3);
 
             &:hover {
                 background-color: $color-tiza;
