@@ -3,104 +3,112 @@
 /*.....HEADER.....*/
 /*.....Modificación estilos navbar Bootstrap.....*/
 .navbar {
-    background-color: $color-plomizo;
+	background-color: $color-plomizo;
 }
 
 .logo {
-    width : 100px;
-    height: 80px;
-	padding: 10px;
+	width        : 100px;
+	height       : 80px;
+	padding      : 10px;
 	border-radius: 5px;
-	box-shadow:-2px -2px 3px rgba(255,255,255,0.05), 3px 3px 3px rgba(0,0,0,0.2);
+	box-shadow   : -2px -2px 3px rgba(255, 255, 255, 0.05), 3px 3px 3px rgba(0, 0, 0, 0.2);
 }
 
-.nav-link{
-    color      : $color-blanco !important;
-    font-size  : 20px;
-    font-family: 'Nunito', sans-serif;
-    font-weight: 600;
-    padding: 0;
+.nav-link {
+	color      : $color-blanco !important;
+	font-size  : 20px;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 600;
+	padding    : 0;
 }
 
-.btn{
+.btn {
 	margin-left: 20px;
-	cursor:pointer;
-	background:$color-plomizo;
-	border:none;
-	overflow:hidden;
-	position:relative;
-	transition:all 0.4s;
-	box-shadow:-2px -2px 3px rgba(255,255,255,0.05), 3px 3px 3px rgba(0,0,0,0.2);
-	z-index:1;
-	&:after{
-		content:"";
-		position:absolute;
-		height:100%;
-		width:100%;
-		background-color:$color-negro;
-		transition:all 0.4s;
-		z-index:-1;
+	cursor     : pointer;
+	background : $color-plomizo;
+	border     : none;
+	overflow   : hidden;
+	position   : relative;
+	transition : all 0.4s;
+	box-shadow : -2px -2px 3px rgba(255, 255, 255, 0.05), 3px 3px 3px rgba(0, 0, 0, 0.2);
+	z-index    : 1;
+
+	&:after {
+		content         : "";
+		position        : absolute;
+		height          : 100%;
+		width           : 100%;
+		background-color: $color-negro;
+		transition      : all 0.4s;
+		z-index         : -1;
 	}
 }
 
-.btn-up-animation{
-	&:after{
-		right:0;
-		top:100%;
+.btn-up-animation {
+	&:after {
+		right: 0;
+		top  : 100%;
 	}
-	&:hover{
-		&:after{
-			top:0;
+
+	&:hover {
+		&:after {
+			top: 0;
 		}
-	}	
+	}
 }
-.btn-left-animation{
-	&:after{
-		top:0;
-		right:100%;
+
+.btn-left-animation {
+	&:after {
+		top  : 0;
+		right: 100%;
 	}
-	&:hover{
-		&:after{
-			right:0;
+
+	&:hover {
+		&:after {
+			right: 0;
 		}
-	}	
+	}
 }
-.btn-right-animation{
-	&:after{
-		top:0;
-		left:100%;
+
+.btn-right-animation {
+	&:after {
+		top : 0;
+		left: 100%;
 	}
-	&:hover{
-		&:after{
-			left:0;
+
+	&:hover {
+		&:after {
+			left: 0;
 		}
-	}	
+	}
 }
-.btn-down-animation{
-	&:after{
-		right:0;
-		bottom:100%;
+
+.btn-down-animation {
+	&:after {
+		right : 0;
+		bottom: 100%;
 	}
-	&:hover{
-		&:after{
-			bottom:0;
+
+	&:hover {
+		&:after {
+			bottom: 0;
 		}
-	}	
+	}
 }
 
 .navbar-light .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
 }
 
 .navbar-light .navbar-toggler {
-    color : $color-tiza;
-    border: 1px solid $color-tiza;
+	color : $color-tiza;
+	border: 1px solid $color-tiza;
 }
 
 .navbar-toggler:not(.collapsep)::after {
-    filter: brightness(0%) invert(20%);
+	filter: brightness(0%) invert(20%);
 }
 
 .navbar-toggler:focus {
-    box-shadow: inherit;
+	box-shadow: inherit;
 }

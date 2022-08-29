@@ -1,12 +1,10 @@
 @import "../base/variables";
 @import "../base/mixin";
-@import "../base/extend";
 
 /*---PAGE SERVICIOS---*/
 
 .servicios {
     .conteiner-placa {
-        /*Mixin*/
         @include flex(flex, row, nowrap, center, center);
 
         .placa-servicios {
@@ -84,8 +82,7 @@
 
     .container-camaras {
         width: 100%;
-        /*Extend*/
-        @extend %flex;
+        @include flex(flex, row, wrap, center, center);
 
         img {
             width             : 240px;
@@ -119,7 +116,6 @@
     }
 
     .antivirus {
-        /*Mixin*/
         @include flex(flex, row, nowrap, center, center);
 
         .antivirus-img {

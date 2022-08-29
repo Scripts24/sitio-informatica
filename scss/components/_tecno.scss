@@ -32,14 +32,11 @@
                     height       : 250px;
                     border       : 2px solid $color-negro;
                     border-radius: 15px;
-                    /*Mixin*/
                     @include flex(flex, row, nowrap, center, center);
-                    /*Mapa*/
                     background-size: map-get($imgfondo, bg-size);
 
                     div {
                         width: 90%;
-                        /*Mixin*/
                         @include flex(flex, column, nowrap, center, center);
                         margin-top: 70px;
 
@@ -128,7 +125,6 @@
     }
 
     .contenedor-flex {
-        /*Mixin*/
         @include flex(flex, row, wrap, space-around, stretch);
 
         .box {

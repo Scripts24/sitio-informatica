@@ -65,14 +65,14 @@ main {
 .conteiner-wrapper {
     /*Mixin*/
     @include flex(flex, row, nowrap, center, center);
-    margin-top     : 40px;
-    margin-bottom  : 40px;
+    margin-top   : 40px;
+    margin-bottom: 40px;
 }
 
 /*---Para Index y Pages---*/
 
 .boton-wsp {
-    a{
+    a {
         img {
             position        : fixed;
             width           : 65px;
@@ -81,9 +81,10 @@ main {
             right           : 15px;
             background-color: $color-blanco;
             border-radius   : 40px;
-        &:hover{
-            background-color: #4cd137;
-        }
+
+            &:hover {
+                background-color: #4cd137;
             }
+        }
     }
 }

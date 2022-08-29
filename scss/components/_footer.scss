@@ -4,7 +4,6 @@
 /*---FOOTER---*/
 footer {
     background-color: $color-plomizo;
-    /*Mixin*/
     @include flex(flex, row, wrap, space-around, center);
 
     div {

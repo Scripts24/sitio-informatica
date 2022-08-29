@@ -73,6 +73,10 @@ header .btn{
 }
 
 @media screen and (max-width:800px) {
+    .banner{
+        height: 60vh;
+        }
+        
     .todo-tecno .slider ul li .slider-card div {
         margin-top: 60px;
     }
@@ -99,9 +103,8 @@ header .btn{
     }
 
 .banner .banner-content h1{
-        font-size: 1.5rem;
+        font-size:2rem;
         }
-    
 }
 
 @media screen and (max-width:620px) {
@@ -132,11 +135,11 @@ header .btn{
 
 @media screen and (max-width:530px) {
     .banner .banner-content h1{
-            font-size: 1.8rem;
+            font-size: 1.7rem;
             }
 
     .banner .banner-content a{
-                font-size: 0.8rem;
+                font-size: 0.9rem;
             }
 
     .todo-tecno .slider ul li .slider-card {
@@ -160,6 +163,14 @@ header .btn{
     .banner{
         height: 45vh;
         }
+
+    .banner .banner-content h1{
+            font-size: 1.5rem;
+            }
+
+    .banner .banner-content a{
+            font-size: 0.8rem;
+            }
 
     p {
         font-size: 1rem;
@@ -213,6 +224,10 @@ header .btn{
 }
 
 @media screen and (max-width:428px) {
+    .banner .banner-content h1{
+        font-size: 1.4rem;
+        }
+
     .servicios .conteiner-placa .placa-servicios{
         width: 220px;
         height:320px
@@ -291,8 +306,8 @@ header .btn{
         }
 
     .banner .banner-content h1{
-        font-size: 1.4rem;
-    }    
+            font-size: 1.15rem;
+            }   
 
     .grid-genios h2 {
         font-size: 1.3rem;
